@@ -1,0 +1,125 @@
+.lf-tooltip {
+  position: absolute;
+  z-index: @zindex-tooltip;
+  display: block;
+  visibility: visible;
+  font-size: @font-size-small;
+  line-height: 1.4;
+  .opacity(0);
+
+  &.in     { .opacity(.9); }
+  &.top    { margin-top:  -3px; padding: @tooltip-arrow-width 0; }
+  &.right  { margin-left:  3px; padding: 0 @tooltip-arrow-width; }
+  &.bottom { margin-top:   3px; padding: @tooltip-arrow-width 0; }
+  &.left   { margin-left: -3px; padding: 0 @tooltip-arrow-width; }
+}
+
+.lf-tooltip-inner {
+  .box-shadow(0 0 10px 0 rgba(0, 0, 0, 0.15));
+  max-width: @tooltip-max-width;
+  padding: 4px 8px;
+  color: @tooltip-light-color;
+  text-align: center;
+  text-decoration: none;
+  background-color: @tooltip-light-bg;
+  border-radius: @border-radius-xsmall;
+}
+
+.lf-tooltip.light .lf-tooltip-inner {
+  .box-shadow(0 0 10px 0 rgba(0, 0, 0, 0.15));
+  max-width: @tooltip-max-width;
+  padding: 4px 8px;
+  color: @tooltip-light-color;
+  text-align: center;
+  text-decoration: none;
+  background-color: @tooltip-light-bg;
+  border: 1px solid #D3D3D3;
+  border-radius: @border-radius-xsmall;
+}
+
+.lf-tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.lf-tooltip {
+  &.top .lf-tooltip-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -@tooltip-arrow-width;
+    border-width: @tooltip-arrow-width @tooltip-arrow-width 0;
+    border-top-color: @tooltip-arrow-color;
+  }
+  &.light.top .lf-tooltip-arrow {
+    border-top-color: @tooltip-arrow-light-color;
+  }
+  &.top-left .lf-tooltip-arrow {
+    bottom: 0;
+    left: @tooltip-arrow-width;
+    border-width: @tooltip-arrow-width @tooltip-arrow-width 0;
+    border-top-color: @tooltip-arrow-color;
+  }
+  &.light.top-left .lf-tooltip-arrow {
+    border-top-color: @tooltip-arrow-light-color;
+  }
+  &.top-right .lf-tooltip-arrow {
+    bottom: 0;
+    right: @tooltip-arrow-width;
+    border-width: @tooltip-arrow-width @tooltip-arrow-width 0;
+    border-top-color: @tooltip-arrow-color;
+  }
+  &.light.top-right .lf-tooltip-arrow {
+    border-top-color: @tooltip-arrow-light-color;
+  }
+  &.right .lf-tooltip-arrow {
+    top: 50%;
+    left: 0;
+    margin-top: -@tooltip-arrow-width;
+    border-width: @tooltip-arrow-width @tooltip-arrow-width @tooltip-arrow-width 0;
+    border-right-color: @tooltip-arrow-color;
+  }
+  &.light.right .lf-tooltip-arrow {
+    border-right-color: @tooltip-arrow-light-color;
+  }
+  &.left .lf-tooltip-arrow {
+    top: 50%;
+    right: 0;
+    margin-top: -@tooltip-arrow-width;
+    border-width: @tooltip-arrow-width 0 @tooltip-arrow-width @tooltip-arrow-width;
+    border-left-color: @tooltip-arrow-color;
+  }
+  &.light.left .lf-tooltip-arrow {
+    border-left-color: @tooltip-arrow-light-color;
+  }
+  &.bottom .lf-tooltip-arrow {
+    top: 0;
+    left: 50%;
+    margin-left: -@tooltip-arrow-width;
+    border-width: 0 @tooltip-arrow-width @tooltip-arrow-width;
+    border-bottom-color: @tooltip-arrow-color;
+  }
+  &.light.bottom .lf-tooltip-arrow {
+    border-bottom-color: @tooltip-arrow-light-color;
+  }
+  &.bottom-left .lf-tooltip-arrow {
+    top: 0;
+    left: @tooltip-arrow-width;
+    border-width: 0 @tooltip-arrow-width @tooltip-arrow-width;
+    border-bottom-color: @tooltip-arrow-color;
+  }
+  &.light.bottom-left .lf-tooltip-arrow {
+    border-bottom-color: @tooltip-arrow-light-color;
+  }
+  &.bottom-right .lf-tooltip-arrow {
+    top: 0;
+    right: @tooltip-arrow-width;
+    border-width: 0 @tooltip-arrow-width @tooltip-arrow-width;
+    border-bottom-color: @tooltip-arrow-color;
+  }
+  &.light.bottom-right .lf-tooltip-arrow {
+    border-bottom-color: @tooltip-arrow-light-color;
+  }
+}

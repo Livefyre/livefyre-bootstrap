@@ -3,8 +3,14 @@
  */
 @import "../../lib/bootstrap/less/variables.less";
 
+// Components
+// -------------------------
+
+@border-radius-xsmall:		2px;
+
 // LF colors
 // -------------------------
+
 @lf-gray-darker:    #2F3440;
 @lf-gray-dark:      tint(@lf-gray-darker, 30%);
 @lf-gray:           tint(@lf-gray-darker, 60%);
@@ -34,6 +40,7 @@
 
 // Brand colors
 // -------------------------
+
 @brand-primary:   #FF5E00;
 @brand-success:   @lf-green;
 @brand-warning:   @lf-yellow;
@@ -70,7 +77,6 @@
 
 // Form states and alerts
 // -------------------------
-
 @state-success-text:             #FFFFFF;
 @state-success-bg:               @lf-green;
 @state-success-border:           @lf-green;
@@ -119,3 +125,19 @@
 @btn-danger-border:              @lf-red-dark;
 
 @btn-link-disabled-color:        @gray-light;
+
+
+// Tooltips
+// -------------------------
+
+@tooltip-max-width: 			      200px;
+@tooltip-arrow-width:           5px;
+
+@tooltip-color:					        #ffffff;
+@tooltip-light-color:           @lf-gray-dark;
+
+@tooltip-bg:					          #232731;
+@tooltip-light-bg:              #ffffff;
+
+@tooltip-arrow-color:           @tooltip-bg;
+@tooltip-arrow-light-color:     @tooltip-light-bg;
