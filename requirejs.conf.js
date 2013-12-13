@@ -11,7 +11,10 @@ require.config({
     mocha: 'lib/mocha/mocha',
     chai: 'lib/chai/chai',
     json: 'lib/requirejs-plugins/src/json',
-    bootstrap: 'lib/bootstrap/dist/js/bootstrap'
+    bootstrap: 'lib/bootstrap/dist/js/bootstrap',
+    sinon : 'lib/sinonjs/sinon',
+    'sinon-chai': 'lib/sinon-chai/lib/sinon-chai',
+    view: 'lib/view/src/view'
   },
   packages: [{
      name: "livefyre-bootstrap",
@@ -54,6 +57,9 @@ require.config({
     },
     'jasmine-jquery': {
         deps: ['jquery', 'jasmine']
+    },
+    'sinon': {
+      exports: 'sinon'
     }
   }
 });

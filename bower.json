@@ -5,7 +5,10 @@
     "./src/main.js"
   ],
   "dependencies": {
-    "bootstrap": "~3.0.3"
+    "bootstrap": "~3.0.3",
+    "sinon-chai": "~2.4.0",
+    "sinonjs": "~1.7.3",
+    "view": "https://github.com/Livefyre/view.git#~1.0"
   },
   "devDependencies": {
     "cajon": "git@github.com:requirejs/cajon.git#~0.1.11",

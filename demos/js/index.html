@@ -1,0 +1,108 @@
+<!doctype html>
+<html class="lf">
+<head>
+  <link rel="stylesheet/less" href="../../src/styles/all.less" />
+  <style>
+    .row {
+      margin-bottom: 50px;
+    }
+    h1 {
+      border-bottom: 1px solid #DDD;
+      margin-bottom: 20px;
+    }
+    footer {
+      display: block;
+      height: 100px;
+      border-top: 1px solid #DDD;
+      float: right;
+    }
+  </style>
+  <script type="text/javascript">
+      less = {
+          env: "development", // or "production"
+          async: true,       // load imports async
+          poll: 1000,         // when in watch mode, time in ms between polls
+          dumpLineNumbers: "comments", // or "mediaQuery" or "all"
+          relativeUrls: true,// whether to adjust url's to be relative
+                              // if false, url's are already relative to the
+                              // entry less file
+          logLevel: 1
+      };
+  </script>
+  <script src="../../lib/less.js/dist/less-1.5.1.js"></script>
+</head>
+<body>
+
+  <!-- Static navbar -->
+  <div class="lf-navbar" role="navigation">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Livefyre Bootstrap</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header">Nav header</li>
+            <li><a href="#">Separated link</a></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="./">Link</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+
+
+<div class="container">
+
+  <!-- Main component for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <h1>Livefyre Bootstrap</h1>
+    <p>"Consistency is one of the most powerful usability principles: when things always behave the same, users don't have to worry about what will happen. Instead, they know what will happen based on earlier experience." -Jakob Nielsen</p>
+    <p>
+    <a class="lf-btn btn-lg btn-primary" role="button">Click Me</a>
+    </p>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <h1>Button</h1>
+      <p><span class="lf-btn">Foo</span></p>
+      <p><span class="lf-btn">Bar</span></p>
+    </div>
+  </div>
+
+  <!--
+  <div class="row">
+    <div class="col-12">
+      <h1>Coming Soon...</h1>
+    </div>
+  </div>
+  -->
+
+</div> <!-- /container -->
+
+<!-- Scripts -->
+<script src="../../lib/cajon/cajon.js"></script>
+<script src="../../requirejs.conf.js"></script>
+<script>
+require(['demos/js/demo-js']);
+</script>
+</body>
+</html>
