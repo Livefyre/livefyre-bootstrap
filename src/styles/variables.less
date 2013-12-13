@@ -74,6 +74,24 @@
 @navbar-default-brand-hover-color: darken(@navbar-default-brand-color, 10%);
 @navbar-default-brand-hover-bg:    transparent;
 
+/**
+ * .lf-bar - Like Navbar but without resizing stuff
+ */
+
+// Default theme, light bg
+@lf-bar-default-bg: #f7f8f6;
+@lf-bar-default-nav-link-color: @gray;
+@lf-bar-default-nav-active-link-color: rgb(235, 81, 43);
+@lf-bar-default-nav-active-link-bg: fadeout(@lf-bar-default-nav-active-link-color, 95%);
+@lf-bar-default-nav-active-link-border-color: @lf-bar-default-nav-active-link-color;
+
+// Inverted theme, dark bg
+@lf-bar-inverted-bg: #30353f;
+@lf-bar-inverted-nav-link-color: @gray-light;
+@lf-bar-inverted-nav-active-link-color: white;
+@lf-bar-inverted-nav-active-link-bg: fadeout(@lf-bar-default-nav-active-link-color, 80%);
+@lf-bar-inverted-nav-active-link-border-color: @lf-bar-default-nav-active-link-color;
+
 // Form states and alerts
 // -------------------------
 

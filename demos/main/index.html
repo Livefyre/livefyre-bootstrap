@@ -110,6 +110,42 @@
           </li>
         </ul>
       </section>
+      <section>
+        <h2>.lf-nav</h2>
+        <ul class="lf-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Messages</a></li>
+          <li class="dropdown">
+            <a id="drop4" role="button" data-toggle="dropdown" href="#">Dropdown <b class="caret"></b></a>
+            <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Action</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Another action</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Something else here</a></li>
+              <li role="presentation" class="divider"></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>.lf-nav.lf-nav-bar</h2>
+        <ul class="lf-nav lf-nav-bar">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Messages</a></li>
+          <li class="dropdown">
+            <a id="drop4" role="button" data-toggle="dropdown" href="#">Dropdown <b class="caret"></b></a>
+            <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Action</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Another action</a></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Something else here</a></li>
+              <li role="presentation" class="divider"></li>
+              <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
     </div>
   </div>
 
@@ -123,16 +159,19 @@
       .lf-bar-inverted (dark)</p>
       <section>
         <h2>.lf-bar .lf-nav</h2>
+        <p>.lf-nav children of .lf-bar will be styled like .lf-nav-bar</p>
         <div class="lf-bar">
           <ul class="lf-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#">Profile</a></li>
             <li><a href="#">Messages</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-cog"></span>Action</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-link"></span></a></li>
             <li class="dropdown">
               <a id="drop4" role="button" data-toggle="dropdown" href="#">Dropdown <b class="caret"></b></a>
               <ul class="dropdown-menu" role="menu" aria-labelledby="drop4">
-                <li><a>Action</a></li>
-                <li><a>Another action</a></li>
+                <li><span class="glyphicon glyphicon-cog"></span><a>Action</a></li>
+                <li><span class="glyphicon glyphicon-link"></span></li>
                 <li><a>Something else here</a></li>
                 <li class="divider"></li>
                 <li><a>Separated link</a></li>
