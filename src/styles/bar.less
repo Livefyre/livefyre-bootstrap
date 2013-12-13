@@ -5,11 +5,9 @@
  */
 .lf-bar {
     > .lf-nav {
-        .nav;
+        .lf-nav-bar;
 
         > li {
-            float: left;
-
             // Active link and hovered links have bottom border
             &.active > a {
                 border-bottom: 4px solid;
@@ -56,13 +54,8 @@
  * Default theme for .lf-bar, light background
  * @theme
  */
-@lf-bar-default-bg: #f7f8f6;
-@lf-bar-default-nav-link-color: @gray;
-@lf-bar-default-nav-active-link-color: rgb(235, 81, 43);
-@lf-bar-default-nav-active-link-bg: fadeout(@lf-bar-default-nav-active-link-color, 95%);
-@lf-bar-default-nav-active-link-border-color: @lf-bar-default-nav-active-link-color;
 
-.lf-bar.lf-bar-default {
+.lf-bar-default {
     .make-lf-bar-theme(
         @lf-bar-default-bg,
         @lf-bar-default-nav-link-color,
@@ -76,13 +69,8 @@
  * Dark theme for .lf-bar, dark background
  * @theme
  */
-@lf-bar-inverted-bg: #30353f;
-@lf-bar-inverted-nav-link-color: @gray-light;
-@lf-bar-inverted-nav-active-link-color: white;
-@lf-bar-inverted-nav-active-link-bg: fadeout(@lf-bar-default-nav-active-link-color, 80%);
-@lf-bar-inverted-nav-active-link-border-color: @lf-bar-default-nav-active-link-color;
 
-.lf-bar.lf-bar-inverted {
+.lf-bar-inverted {
     .make-lf-bar-theme(
         @lf-bar-inverted-bg,
         @lf-bar-inverted-nav-link-color,
