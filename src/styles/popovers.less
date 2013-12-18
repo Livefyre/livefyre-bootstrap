@@ -21,6 +21,14 @@
     color: @color;
   }
 
+  .lf-arrow {
+    border-width: 11px;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+  }
+
   &.top .lf-arrow {
     border-top-color: @arrow-outer-fallback-color; // IE8 fallback
     border-top-color: @arrow-outer-color;
@@ -97,9 +105,11 @@
 
 .lf-popover {
   &.top .lf-arrow {
+    position: absolute;
     left: 50%;
     margin-left: -@popover-arrow-outer-width;
     border-bottom-width: 0;
+    border-top-color: @popover-dark-arrow-color;
     bottom: -@popover-arrow-outer-width;
     &:after {
       content: " ";
@@ -109,6 +119,7 @@
     }
   }
   &.right .lf-arrow {
+    position: absolute;
     top: 50%;
     left: -@popover-arrow-outer-width;
     margin-top: -@popover-arrow-outer-width;
@@ -121,6 +132,7 @@
     }
   }
   &.bottom .lf-arrow {
+    position: absolute;
     left: 50%;
     margin-left: -@popover-arrow-outer-width;
     border-top-width: 0;
@@ -134,6 +146,7 @@
   }
 
   &.left .lf-arrow {
+    position: absolute;
     top: 50%;
     right: -@popover-arrow-outer-width;
     margin-top: -@popover-arrow-outer-width;
