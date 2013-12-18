@@ -46,6 +46,7 @@
 
 // Components
 // -------------------------
+@padding-base-vertical:     7px;
 @component-active-bg:       @lf-blue;
 @border-radius-xsmall:		2px;
 
@@ -96,10 +97,20 @@
 @state-danger-border:            @lf-red;
 
 
-/**
- * Buttons
- */
+// Forms
+// -------------------------
+@input-bg:                      #fff;
+@input-bg-disabled:             @lf-gray-lighter;
 
+@input-color:                   @lf-gray-darker;
+@input-border:                  @lf-gray-light;
+@input-border-radius:           3px;
+@input-border-focus:            @lf-blue;
+
+@input-height-base:             (@line-height-computed + (@padding-base-vertical * 2) + 2);
+
+// Buttons
+// -------------------------
 @btn-font-weight:                500;
 
 @btn-default-color:              @lf-gray-dark;

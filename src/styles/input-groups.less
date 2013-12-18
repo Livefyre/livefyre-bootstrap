@@ -1,0 +1,114 @@
+.lf-input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+    &.col {
+      float: none;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .lf-form-control {
+      width: 100%;
+      margin-bottom: 0;
+    }
+}
+
+.lf-input-group-lg > .lf-form-control,
+.lf-input-group-lg > .lf-input-group-addon,
+.lf-input-group-lg > .lf-input-group-btn > .lf-btn { .lf-input-lg(); }
+.lf-input-group-sm > .lf-form-control,
+.lf-input-group-sm > .lf-input-group-addon,
+.lf-input-group-sm > .lf-input-group-btn > .lf-btn { .lf-input-sm(); }
+
+.lf-input-group-addon,
+.lf-input-group-btn,
+.lf-input-group .lf-form-control {
+    display: table-cell;
+
+    &:not(:first-child):not(:last-child) {
+        border-radius: 0;
+    }
+}
+
+.lf-input-group-addon,
+.lf-input-group-btn {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.lf-input-group-addon {
+    padding: @padding-base-vertical @padding-base-horizontal;
+    font-size: @font-size-base;
+    font-weight: normal;
+    line-height: 1;
+    color: @lf-gray;
+    text-align: center;
+    background-color: @input-bg;
+    border: 1px solid @input-group-addon-border-color;
+    border-radius: @border-radius-base;
+
+    &.lf-input-sm {
+        padding: @padding-small-vertical @padding-small-horizontal;
+        font-size: @font-size-small;
+        border-radius: @border-radius-small;
+    }
+
+    &.lf-input-lg {
+        padding: @padding-large-vertical @padding-large-horizontal;
+        font-size: @font-size-large;
+        border-radius: @border-radius-large;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+        margin-top: 0;
+    }
+}
+
+.lf-input-group .lf-form-control:first-child,
+.lf-input-group-addon:first-child,
+.lf-input-group-btn:first-child > .lf-btn,
+.lf-input-group-btn:first-child > .dropdown-toggle,
+.lf-input-group-btn:last-child > .lf-btn:not(:last-child):not(.dropdown-toggle) {
+  .border-right-radius(0);
+}
+.lf-input-group-addon:first-child {
+    border-right: 0;
+}
+.lf-input-group .lf-form-control:last-child,
+.lf-input-group-addon:last-child,
+.lf-input-group-btn:last-child > .lf-btn,
+.lf-input-group-btn:last-child > .dropdown-toggle,
+.lf-input-group-btn:first-child > .lf-btn:not(:first-child) {
+    .border-left-radius(0);
+}
+.lf-input-group-addon:last-child {
+    border-left: 0;
+}
+
+.lf-input-group-btn {
+    position: relative;
+    white-space: nowrap;
+
+    &:first-child > .lf-btn {
+        margin-right: -1px;
+    }
+    &:last-child > .lf-btn {
+        margin-left: -1px;
+    }
+}
+
+.lf-input-group-btn > .lf-btn {
+    position: relative;
+
+    + .lf-btn {
+        margin-left: -4px;
+    }
+
+    &:hover,
+    &:active {
+        z-index: 2;
+    }
+}
