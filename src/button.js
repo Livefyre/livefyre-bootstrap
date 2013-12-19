@@ -1,5 +1,6 @@
 'use strict';
 
+var $ = require('jquery');
 var inherits = require('inherits');
 var View = require('view');
 
@@ -26,6 +27,25 @@ Button.prototype.elClass += ' lf-btn';
  * not allowed to be executed
  */
 Button.prototype.disabledClass = 'disabled';
+
+/**
+ * Method to bind commands in html
+ * @public
+ */
+Button.bindCommands = function (window)
+{
+	$('.lf-btn').each(function (index, el) {
+
+		var commandAttr = $(this).attr('command');
+		if (commandAttr == null) return true;
+
+		var commandName = commandAttr.toString() + "Command";
+		console.log(commandName, Date.now());
+	    var button = new Button(window[commandName], {
+	        el: el
+	    });
+	});
+}
 
 /**
  * Execute the button's command
