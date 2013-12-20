@@ -1,0 +1,56 @@
+.lf-close {
+  box-sizing: border-box;
+  height: @close-height;
+  width: @close-height;
+  padding: 0;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  vertical-align: middle;
+  float: right;
+  font-size: (@font-size-base);
+  font-weight: @close-font-weight;
+  line-height: @close-height + 2;
+  color: @close-color;
+  text-shadow: none;
+  -webkit-appearance: none;
+  -moz-apperance: none;
+  .opacity(1);
+
+  &:hover,
+  &:focus {
+    color: @close-color;
+    text-decoration: none;
+    cursor: pointer;
+    background: rgba(47, 52, 64, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    .opacity(1);
+  }
+
+  &:active {
+    background: rgba(47, 52, 64, 0.15);
+    .box-shadow(inset 0 0 2px 0 rgba(0, 0, 0, .3));
+  }
+
+  button& {
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid red;
+    -webkit-appearance: none;
+    -moz-apperance: none;
+    box-sizing: border-box;
+  }
+}
+
+
+.lf-close.light {
+  color: #fff;
+  &:hover, :focus {
+    color: inherit;
+    background: rgba(47, 52, 64, 0.3);
+  }
+  &:active {
+    background: rgba(47, 52, 64, 0.35);
+  }
+}
