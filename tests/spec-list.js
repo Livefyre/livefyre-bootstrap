@@ -2,5 +2,6 @@
 module.exports = [
     'tests',
     'command',
-    'button'
+    'button',
+    'loader'
 ];
