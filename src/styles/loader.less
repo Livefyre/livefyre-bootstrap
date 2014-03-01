@@ -1,0 +1,137 @@
+/**
+ * This CSS is for a loader DOM that is structured like below. The element tag
+ * doesn't matter, as long as there are 9 direct children of the element that
+ * has `.lf-loader` on it.
+ * 
+ *     <div class="lf-loader">
+ *         <div id="lf-loader-block-1" class="lf-loader-block"></div>
+ *         <div id="lf-loader-block-2" class="lf-loader-block"></div>
+ *         <div id="lf-loader-block-3" class="lf-loader-block"></div>
+ *         <div id="lf-loader-block-4" class="lf-loader-block"></div>
+ *         <div id="lf-loader-block-5" class="lf-loader-block"></div>
+ *         <div id="lf-loader-block-6" class="lf-loader-block"></div>
+ *         <div id="lf-loader-block-7" class="lf-loader-block"></div>
+ *         <div id="lf-loader-block-8" class="lf-loader-block"></div>
+ *         <div id="lf-loader-block-9" class="lf-loader-block"></div>
+ *     </div>
+ */
+
+.lf-loader {
+    height: 48px;
+    width: 48px;
+
+    &.lf-mini {
+
+    }
+    &.lf-small {
+
+    }
+    &.lf-large {
+
+    }
+
+    > * {
+        .animation(lf-loader-block-fade 3000ms ease-in-out infinite);
+        display: block;
+        float: left;
+        height: 33%;
+        width: 33%;
+    }
+    > :nth-child(3) {
+        .animation-delay(-150ms);
+        background-color: #fca638;
+    }
+    > :nth-child(2) {
+        .animation-delay(-300ms);
+        background-color: #f99434;
+    }
+    > :nth-child(1) {
+        .animation-delay(-450ms);
+        background-color: #f67e2f;
+    }
+    > :nth-child(6) {
+        .animation-delay(-600ms);
+        background-color: #f99334;
+    }
+    > :nth-child(5) {
+        .animation-delay(-750ms);
+        background-color: #f67d2f;
+    }
+    > :nth-child(4) {
+        .animation-delay(-900ms);
+        background-color: #f3672a;
+    }
+    > :nth-child(9) {
+        .animation-delay(-1050ms);
+        background-color: #f67d2f;
+    }
+    > :nth-child(8) {
+        .animation-delay(-1200ms);
+        background-color: #f3672a;
+    }
+    > :nth-child(7) {
+        .animation-delay(-1350ms);
+        background-color: #f05426;
+    }
+}
+
+
+@opacity0: 1;
+@opacity0IE: 100;
+@opacity50: 1;
+@opacity50IE: 100;
+@opacity60: 0;
+@opacity60IE: 0;
+@opacity90: 0;
+@opacity90IE: 0;
+@opacity100: 1;
+@opacity100IE: 100;
+
+@-webkit-keyframes lf-loader-block-fade {
+    0% { -webkit-opacity: @opacity0; }
+    50% { -webkit-opacity: @opacity50; }
+    60% { -webkit-opacity: @opacity60; }
+    90% { -webkit-opacity: @opacity90; }
+    100% { -webkit-opacity: @opacity100; }
+}
+@-moz-keyframes lf-loader-block-fade {
+    0% { -moz-opacity: @opacity0; }
+    50% { -moz-opacity: @opacity50; }
+    60% { -moz-opacity: @opacity60; }
+    90% { -moz-opacity: @opacity90; }
+    100% { -moz-opacity: @opacity100; }
+}
+@-o-keyframes lf-loader-block-fade {
+    0% { -o-opacity: @opacity0; }
+    50% { -o-opacity: @opacity50; }
+    60% { -o-opacity: @opacity60; }
+    90% { -o-opacity: @opacity90; }
+    100% { -o-opacity: @opacity100; }
+}
+@keyframes lf-loader-block-fade {
+    0% {
+        opacity: @opacity0;
+        filter: ~"alpha(opacity=@{opacity0IE})";
+        -ms-filter: %("progid:DXImageTransform.Microsoft.Alpha(Opacity=%d)", @opacity0IE);
+    }
+    50% {
+        opacity: @opacity50;
+        filter: ~"alpha(opacity=@{opacity50IE})";
+        -ms-filter: %("progid:DXImageTransform.Microsoft.Alpha(Opacity=%d)", @opacity50IE);
+    }
+    60% {
+        opacity: @opacity60;
+        filter: ~"alpha(opacity=@{opacity60IE})";
+        -ms-filter: %("progid:DXImageTransform.Microsoft.Alpha(Opacity=%d)", @opacity60IE);
+    }
+    90% {
+        opacity: @opacity90;
+        filter: ~"alpha(opacity=@{opacity90IE})";
+        -ms-filter: %("progid:DXImageTransform.Microsoft.Alpha(Opacity=%d)", @opacity90IE);
+    }
+    100% {
+        opacity: @opacity100;
+        filter: ~"alpha(opacity=@{opacity100IE})";
+        -ms-filter: %("progid:DXImageTransform.Microsoft.Alpha(Opacity=%d)", @opacity100IE);
+    }
+}
