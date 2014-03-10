@@ -1816,14 +1816,6 @@ textarea.lf .input-lg {
   -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
-.lf .has-warning .form-control:focus {
-  border-color: #e6e6e6;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  -ms-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-}
 .lf .has-warning .input-group-addon {
   color: #ffffff;
   border-color: #ffffff;
@@ -1845,14 +1837,6 @@ textarea.lf .input-lg {
   -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
-.lf .has-error .form-control:focus {
-  border-color: #e6e6e6;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  -ms-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-}
 .lf .has-error .input-group-addon {
   color: #ffffff;
   border-color: #ffffff;
@@ -1873,14 +1857,6 @@ textarea.lf .input-lg {
   -ms-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-}
-.lf .has-success .form-control:focus {
-  border-color: #e6e6e6;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  -ms-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
 }
 .lf .has-success .input-group-addon {
   color: #ffffff;
@@ -2030,24 +2006,6 @@ fieldset[disabled] .lf .btn {
 .open .dropdown-toggle.lf .btn-default {
   background-image: none;
 }
-.lf .btn-default.disabled,
-.lf .btn-default[disabled],
-fieldset[disabled] .lf .btn-default,
-.lf .btn-default.disabled:hover,
-.lf .btn-default[disabled]:hover,
-fieldset[disabled] .lf .btn-default:hover,
-.lf .btn-default.disabled:focus,
-.lf .btn-default[disabled]:focus,
-fieldset[disabled] .lf .btn-default:focus,
-.lf .btn-default.disabled:active,
-.lf .btn-default[disabled]:active,
-fieldset[disabled] .lf .btn-default:active,
-.lf .btn-default.disabled.active,
-.lf .btn-default[disabled].active,
-fieldset[disabled] .lf .btn-default.active {
-  background-color: #f5f5f5;
-  border-color: #d5d6d9;
-}
 .lf .btn-default .badge {
   color: #f5f5f5;
   background-color: #fff;
@@ -2070,24 +2028,6 @@ fieldset[disabled] .lf .btn-default.active {
 .lf .btn-primary.active,
 .open .dropdown-toggle.lf .btn-primary {
   background-image: none;
-}
-.lf .btn-primary.disabled,
-.lf .btn-primary[disabled],
-fieldset[disabled] .lf .btn-primary,
-.lf .btn-primary.disabled:hover,
-.lf .btn-primary[disabled]:hover,
-fieldset[disabled] .lf .btn-primary:hover,
-.lf .btn-primary.disabled:focus,
-.lf .btn-primary[disabled]:focus,
-fieldset[disabled] .lf .btn-primary:focus,
-.lf .btn-primary.disabled:active,
-.lf .btn-primary[disabled]:active,
-fieldset[disabled] .lf .btn-primary:active,
-.lf .btn-primary.disabled.active,
-.lf .btn-primary[disabled].active,
-fieldset[disabled] .lf .btn-primary.active {
-  background-color: #e65b3f;
-  border-color: #c03519;
 }
 .lf .btn-primary .badge {
   color: #e65b3f;
@@ -2112,24 +2052,6 @@ fieldset[disabled] .lf .btn-primary.active {
 .open .dropdown-toggle.lf .btn-warning {
   background-image: none;
 }
-.lf .btn-warning.disabled,
-.lf .btn-warning[disabled],
-fieldset[disabled] .lf .btn-warning,
-.lf .btn-warning.disabled:hover,
-.lf .btn-warning[disabled]:hover,
-fieldset[disabled] .lf .btn-warning:hover,
-.lf .btn-warning.disabled:focus,
-.lf .btn-warning[disabled]:focus,
-fieldset[disabled] .lf .btn-warning:focus,
-.lf .btn-warning.disabled:active,
-.lf .btn-warning[disabled]:active,
-fieldset[disabled] .lf .btn-warning:active,
-.lf .btn-warning.disabled.active,
-.lf .btn-warning[disabled].active,
-fieldset[disabled] .lf .btn-warning.active {
-  background-color: #feb33b;
-  border-color: #eb9101;
-}
 .lf .btn-warning .badge {
   color: #feb33b;
   background-color: #fff;
@@ -2152,24 +2074,6 @@ fieldset[disabled] .lf .btn-warning.active {
 .lf .btn-danger.active,
 .open .dropdown-toggle.lf .btn-danger {
   background-image: none;
-}
-.lf .btn-danger.disabled,
-.lf .btn-danger[disabled],
-fieldset[disabled] .lf .btn-danger,
-.lf .btn-danger.disabled:hover,
-.lf .btn-danger[disabled]:hover,
-fieldset[disabled] .lf .btn-danger:hover,
-.lf .btn-danger.disabled:focus,
-.lf .btn-danger[disabled]:focus,
-fieldset[disabled] .lf .btn-danger:focus,
-.lf .btn-danger.disabled:active,
-.lf .btn-danger[disabled]:active,
-fieldset[disabled] .lf .btn-danger:active,
-.lf .btn-danger.disabled.active,
-.lf .btn-danger[disabled].active,
-fieldset[disabled] .lf .btn-danger.active {
-  background-color: #f53e52;
-  border-color: #db0b22;
 }
 .lf .btn-danger .badge {
   color: #f53e52;
@@ -2194,24 +2098,6 @@ fieldset[disabled] .lf .btn-danger.active {
 .open .dropdown-toggle.lf .btn-success {
   background-image: none;
 }
-.lf .btn-success.disabled,
-.lf .btn-success[disabled],
-fieldset[disabled] .lf .btn-success,
-.lf .btn-success.disabled:hover,
-.lf .btn-success[disabled]:hover,
-fieldset[disabled] .lf .btn-success:hover,
-.lf .btn-success.disabled:focus,
-.lf .btn-success[disabled]:focus,
-fieldset[disabled] .lf .btn-success:focus,
-.lf .btn-success.disabled:active,
-.lf .btn-success[disabled]:active,
-fieldset[disabled] .lf .btn-success:active,
-.lf .btn-success.disabled.active,
-.lf .btn-success[disabled].active,
-fieldset[disabled] .lf .btn-success.active {
-  background-color: #63c685;
-  border-color: #3ba15e;
-}
 .lf .btn-success .badge {
   color: #63c685;
   background-color: #fff;
@@ -2234,24 +2120,6 @@ fieldset[disabled] .lf .btn-success.active {
 .lf .btn-info.active,
 .open .dropdown-toggle.lf .btn-info {
   background-image: none;
-}
-.lf .btn-info.disabled,
-.lf .btn-info[disabled],
-fieldset[disabled] .lf .btn-info,
-.lf .btn-info.disabled:hover,
-.lf .btn-info[disabled]:hover,
-fieldset[disabled] .lf .btn-info:hover,
-.lf .btn-info.disabled:focus,
-.lf .btn-info[disabled]:focus,
-fieldset[disabled] .lf .btn-info:focus,
-.lf .btn-info.disabled:active,
-.lf .btn-info[disabled]:active,
-fieldset[disabled] .lf .btn-info:active,
-.lf .btn-info.disabled.active,
-.lf .btn-info[disabled].active,
-fieldset[disabled] .lf .btn-info.active {
-  background-color: #0f98ec;
-  border-color: #0a6aa4;
 }
 .lf .btn-info .badge {
   color: #0f98ec;
@@ -4215,30 +4083,10 @@ textarea.lf .input-group-sm > .input-group-btn > .btn {
   padding: 10px 16px;
   font-size: 18px;
 }
-.lf .pagination-lg > li:first-child > a,
-.lf .pagination-lg > li:first-child > span {
-  border-bottom-left-radius: 6px;
-  border-top-left-radius: 6px;
-}
-.lf .pagination-lg > li:last-child > a,
-.lf .pagination-lg > li:last-child > span {
-  border-bottom-right-radius: 6px;
-  border-top-right-radius: 6px;
-}
 .lf .pagination-sm > li > a,
 .lf .pagination-sm > li > span {
   padding: 5px 10px;
   font-size: 12px;
-}
-.lf .pagination-sm > li:first-child > a,
-.lf .pagination-sm > li:first-child > span {
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px;
-}
-.lf .pagination-sm > li:last-child > a,
-.lf .pagination-sm > li:last-child > span {
-  border-bottom-right-radius: 3px;
-  border-top-right-radius: 3px;
 }
 .lf .pager {
   padding-left: 0;
@@ -4314,44 +4162,20 @@ textarea.lf .input-group-sm > .input-group-btn > .btn {
 .lf .label-default {
   background-color: #f5f5f5;
 }
-.lf .label-default[href]:hover,
-.lf .label-default[href]:focus {
-  background-color: #dadbdd;
-}
 .lf .label-primary {
   background-color: #e65b3f;
-}
-.lf .label-primary[href]:hover,
-.lf .label-primary[href]:focus {
-  background-color: #d63b1c;
 }
 .lf .label-success {
   background-color: #63c685;
 }
-.lf .label-success[href]:hover,
-.lf .label-success[href]:focus {
-  background-color: #42b469;
-}
 .lf .label-info {
   background-color: #0f98ec;
-}
-.lf .label-info[href]:hover,
-.lf .label-info[href]:focus {
-  background-color: #0c79bc;
 }
 .lf .label-warning {
   background-color: #feb33b;
 }
-.lf .label-warning[href]:hover,
-.lf .label-warning[href]:focus {
-  background-color: #fe9f08;
-}
 .lf .label-danger {
   background-color: #f53e52;
-}
-.lf .label-danger[href]:hover,
-.lf .label-danger[href]:focus {
-  background-color: #f20e27;
 }
 .lf .badge {
   display: inline-block;
@@ -6293,24 +6117,6 @@ fieldset[disabled] .lf .lf-btn {
   -o-box-shadow: inset 0 1px 2px rgba(47, 52, 64, 0.3);
   box-shadow: inset 0 1px 2px rgba(47, 52, 64, 0.3);
 }
-.lf .lf-btn-default.disabled,
-.lf .lf-btn-default[disabled],
-fieldset[disabled] .lf .lf-btn-default,
-.lf .lf-btn-default.disabled:hover,
-.lf .lf-btn-default[disabled]:hover,
-fieldset[disabled] .lf .lf-btn-default:hover,
-.lf .lf-btn-default.disabled:focus,
-.lf .lf-btn-default[disabled]:focus,
-fieldset[disabled] .lf .lf-btn-default:focus,
-.lf .lf-btn-default.disabled:active,
-.lf .lf-btn-default[disabled]:active,
-fieldset[disabled] .lf .lf-btn-default:active,
-.lf .lf-btn-default.disabled.active,
-.lf .lf-btn-default[disabled].active,
-fieldset[disabled] .lf .lf-btn-default.active {
-  background-color: #f5f5f5;
-  border-color: #d5d6d9;
-}
 .lf .lf-btn-primary {
   color: #ffffff;
   background-color: #e65b3f;
@@ -6339,24 +6145,6 @@ fieldset[disabled] .lf .lf-btn-default.active {
   -ms-box-shadow: inset 0 1px 2px rgba(47, 52, 64, 0.3);
   -o-box-shadow: inset 0 1px 2px rgba(47, 52, 64, 0.3);
   box-shadow: inset 0 1px 2px rgba(47, 52, 64, 0.3);
-}
-.lf .lf-btn-primary.disabled,
-.lf .lf-btn-primary[disabled],
-fieldset[disabled] .lf .lf-btn-primary,
-.lf .lf-btn-primary.disabled:hover,
-.lf .lf-btn-primary[disabled]:hover,
-fieldset[disabled] .lf .lf-btn-primary:hover,
-.lf .lf-btn-primary.disabled:focus,
-.lf .lf-btn-primary[disabled]:focus,
-fieldset[disabled] .lf .lf-btn-primary:focus,
-.lf .lf-btn-primary.disabled:active,
-.lf .lf-btn-primary[disabled]:active,
-fieldset[disabled] .lf .lf-btn-primary:active,
-.lf .lf-btn-primary.disabled.active,
-.lf .lf-btn-primary[disabled].active,
-fieldset[disabled] .lf .lf-btn-primary.active {
-  background-color: #e65b3f;
-  border-color: #c03519;
 }
 .lf .lf-btn-warning {
   color: #ffffff;
@@ -6387,24 +6175,6 @@ fieldset[disabled] .lf .lf-btn-primary.active {
   -o-box-shadow: inset 0 1px 2px rgba(47, 52, 64, 0.3);
   box-shadow: inset 0 1px 2px rgba(47, 52, 64, 0.3);
 }
-.lf .lf-btn-warning.disabled,
-.lf .lf-btn-warning[disabled],
-fieldset[disabled] .lf .lf-btn-warning,
-.lf .lf-btn-warning.disabled:hover,
-.lf .lf-btn-warning[disabled]:hover,
-fieldset[disabled] .lf .lf-btn-warning:hover,
-.lf .lf-btn-warning.disabled:focus,
-.lf .lf-btn-warning[disabled]:focus,
-fieldset[disabled] .lf .lf-btn-warning:focus,
-.lf .lf-btn-warning.disabled:active,
-.lf .lf-btn-warning[disabled]:active,
-fieldset[disabled] .lf .lf-btn-warning:active,
-.lf .lf-btn-warning.disabled.active,
-.lf .lf-btn-warning[disabled].active,
-fieldset[disabled] .lf .lf-btn-warning.active {
-  background-color: #feb33b;
-  border-color: #eb9101;
-}
 .lf .lf-btn-danger {
   color: #ffffff;
   background-color: #f53e52;
@@ -6433,24 +6203,6 @@ fieldset[disabled] .lf .lf-btn-warning.active {
   -ms-box-shadow: inset 0 1px 2px rgba(47, 52, 64, 0.3);
   -o-box-shadow: inset 0 1px 2px rgba(47, 52, 64, 0.3);
   box-shadow: inset 0 1px 2px rgba(47, 52, 64, 0.3);
-}
-.lf .lf-btn-danger.disabled,
-.lf .lf-btn-danger[disabled],
-fieldset[disabled] .lf .lf-btn-danger,
-.lf .lf-btn-danger.disabled:hover,
-.lf .lf-btn-danger[disabled]:hover,
-fieldset[disabled] .lf .lf-btn-danger:hover,
-.lf .lf-btn-danger.disabled:focus,
-.lf .lf-btn-danger[disabled]:focus,
-fieldset[disabled] .lf .lf-btn-danger:focus,
-.lf .lf-btn-danger.disabled:active,
-.lf .lf-btn-danger[disabled]:active,
-fieldset[disabled] .lf .lf-btn-danger:active,
-.lf .lf-btn-danger.disabled.active,
-.lf .lf-btn-danger[disabled].active,
-fieldset[disabled] .lf .lf-btn-danger.active {
-  background-color: #f53e52;
-  border-color: #db0b22;
 }
 .lf .lf-btn-success {
   color: #ffffff;
@@ -6481,24 +6233,6 @@ fieldset[disabled] .lf .lf-btn-danger.active {
   -o-box-shadow: inset 0 1px 2px rgba(47, 52, 64, 0.3);
   box-shadow: inset 0 1px 2px rgba(47, 52, 64, 0.3);
 }
-.lf .lf-btn-success.disabled,
-.lf .lf-btn-success[disabled],
-fieldset[disabled] .lf .lf-btn-success,
-.lf .lf-btn-success.disabled:hover,
-.lf .lf-btn-success[disabled]:hover,
-fieldset[disabled] .lf .lf-btn-success:hover,
-.lf .lf-btn-success.disabled:focus,
-.lf .lf-btn-success[disabled]:focus,
-fieldset[disabled] .lf .lf-btn-success:focus,
-.lf .lf-btn-success.disabled:active,
-.lf .lf-btn-success[disabled]:active,
-fieldset[disabled] .lf .lf-btn-success:active,
-.lf .lf-btn-success.disabled.active,
-.lf .lf-btn-success[disabled].active,
-fieldset[disabled] .lf .lf-btn-success.active {
-  background-color: #63c685;
-  border-color: #3ba15e;
-}
 .lf .lf-btn-info {
   color: #ffffff;
   background-color: #0f98ec;
@@ -6527,24 +6261,6 @@ fieldset[disabled] .lf .lf-btn-success.active {
   -ms-box-shadow: inset 0 1px 2px rgba(47, 52, 64, 0.3);
   -o-box-shadow: inset 0 1px 2px rgba(47, 52, 64, 0.3);
   box-shadow: inset 0 1px 2px rgba(47, 52, 64, 0.3);
-}
-.lf .lf-btn-info.disabled,
-.lf .lf-btn-info[disabled],
-fieldset[disabled] .lf .lf-btn-info,
-.lf .lf-btn-info.disabled:hover,
-.lf .lf-btn-info[disabled]:hover,
-fieldset[disabled] .lf .lf-btn-info:hover,
-.lf .lf-btn-info.disabled:focus,
-.lf .lf-btn-info[disabled]:focus,
-fieldset[disabled] .lf .lf-btn-info:focus,
-.lf .lf-btn-info.disabled:active,
-.lf .lf-btn-info[disabled]:active,
-fieldset[disabled] .lf .lf-btn-info:active,
-.lf .lf-btn-info.disabled.active,
-.lf .lf-btn-info[disabled].active,
-fieldset[disabled] .lf .lf-btn-info.active {
-  background-color: #0f98ec;
-  border-color: #0a6aa4;
 }
 .lf .lf-btn-link {
   color: #6d7179;
@@ -6576,24 +6292,6 @@ fieldset[disabled] .lf .lf-btn-info.active {
   -ms-box-shadow: inset 0 1px 2px rgba(47, 52, 64, 0.3);
   -o-box-shadow: inset 0 1px 2px rgba(47, 52, 64, 0.3);
   box-shadow: inset 0 1px 2px rgba(47, 52, 64, 0.3);
-}
-.lf .lf-btn-link.disabled,
-.lf .lf-btn-link[disabled],
-fieldset[disabled] .lf .lf-btn-link,
-.lf .lf-btn-link.disabled:hover,
-.lf .lf-btn-link[disabled]:hover,
-fieldset[disabled] .lf .lf-btn-link:hover,
-.lf .lf-btn-link.disabled:focus,
-.lf .lf-btn-link[disabled]:focus,
-fieldset[disabled] .lf .lf-btn-link:focus,
-.lf .lf-btn-link.disabled:active,
-.lf .lf-btn-link[disabled]:active,
-fieldset[disabled] .lf .lf-btn-link:active,
-.lf .lf-btn-link.disabled.active,
-.lf .lf-btn-link[disabled].active,
-fieldset[disabled] .lf .lf-btn-link.active {
-  background-color: #f5f5f5;
-  border-color: #d5d6d9;
 }
 .lf .lf-btn-lg {
   padding: 10px 16px;
@@ -7719,6 +7417,21 @@ textarea.lf .lf-input-group-sm > .lf-input-group-btn > .lf-btn {
 .lf .lf-input-group-btn > .lf-btn:active {
   z-index: 2;
 }
+.lf .lf-search-form {
+  display: inline-block;
+}
+.lf .lf-search-form .fycon-search {
+  position: relative;
+  left: 2em;
+}
+.lf .lf-search-form input {
+  padding-left: 2em;
+  border-radius: 10px;
+  border: thin solid black;
+}
+.lf .lf-search-form input:hover {
+  border: thin solid #0f98ec;
+}
 .lf fieldset {
   padding: 0;
   margin: 0;
@@ -7948,14 +7661,6 @@ textarea.lf .lf-input-lg {
   -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
-.lf .lf-has-warning .form-control:focus {
-  border-color: #e6e6e6;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  -ms-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-}
 .lf .lf-has-warning .input-group-addon {
   color: #ffffff;
   border-color: #ffffff;
@@ -7977,14 +7682,6 @@ textarea.lf .lf-input-lg {
   -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
-.lf .lf-has-error .form-control:focus {
-  border-color: #e6e6e6;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  -ms-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-}
 .lf .lf-has-error .input-group-addon {
   color: #ffffff;
   border-color: #ffffff;
@@ -8005,14 +7702,6 @@ textarea.lf .lf-input-lg {
   -ms-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-}
-.lf .lf-has-success .form-control:focus {
-  border-color: #e6e6e6;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  -ms-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
 }
 .lf .lf-has-success .input-group-addon {
   color: #ffffff;
@@ -8115,44 +7804,20 @@ textarea.lf .lf-input-lg {
   color: #6d7179;
   background-color: #f5f5f5;
 }
-.lf .lf-label-default[href]:hover,
-.lf .lf-label-default[href]:focus {
-  background-color: #dadbdd;
-}
 .lf .lf-label-primary {
   background-color: #e65b3f;
-}
-.lf .lf-label-primary[href]:hover,
-.lf .lf-label-primary[href]:focus {
-  background-color: #d63b1c;
 }
 .lf .lf-label-success {
   background-color: #63c685;
 }
-.lf .lf-label-success[href]:hover,
-.lf .lf-label-success[href]:focus {
-  background-color: #42b469;
-}
 .lf .lf-label-info {
   background-color: #0f98ec;
-}
-.lf .lf-label-info[href]:hover,
-.lf .lf-label-info[href]:focus {
-  background-color: #0c79bc;
 }
 .lf .lf-label-warning {
   background-color: #feb33b;
 }
-.lf .lf-label-warning[href]:hover,
-.lf .lf-label-warning[href]:focus {
-  background-color: #fe9f08;
-}
 .lf .lf-label-danger {
   background-color: #f53e52;
-}
-.lf .lf-label-danger[href]:hover,
-.lf .lf-label-danger[href]:focus {
-  background-color: #f20e27;
 }
 .lf .lf-modal-open {
   overflow: hidden;
