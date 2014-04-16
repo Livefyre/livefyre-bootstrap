@@ -69,8 +69,8 @@
   <div class="row">
     <div class="col-12">
       <h1>Button</h1>
-      <p><span class="lf-btn">Foo</span></p>
-      <p><span class="lf-btn">Bar</span></p>
+      <p><span class="lf-btn" command="ShowAlert">Show Alert</span></p>
+      <p><span class="lf-btn" command="LogToConsole">Log to Console</span></p>
     </div>
   </div>
 
@@ -95,3 +95,19 @@ require(['demos/js/demo-js']);
 </script>
 </body>
 </html>
+
+<div class="input-group">
+    
+    <label style="text-align: center;">Collection:</label>
+    <div class="input-group">
+      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+        {{currentCollection}}
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+        {{#allCollections}}
+            <li>{{name}}</li>
+        {{/allCollections}}
+      </ul>
+    </div>
+  </div>
