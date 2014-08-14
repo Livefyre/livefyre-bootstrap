@@ -22,7 +22,7 @@
   },
   "version": "1.3.2",
   "scripts": {
-    "postinstall": "./node_modules/bower/bin/bower install ./node_modules/livefyre-bootstrap/bower.json",
+    "postinstall": "../bower/bin/bower install ../livefyre-bootstrap/bower.json",
     "start": "./bin/server.js",
     "test": "./bin/test",
     "hint": "./node_modules/jshint/bin/jshint src; echo",
