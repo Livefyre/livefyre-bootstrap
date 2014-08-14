@@ -22,7 +22,7 @@
   },
   "version": "1.3.2",
   "scripts": {
-    "postinstall": "./node_modulels/bower/bin/bower install",
+    "postinstall": "./node_modules/bower/bin/bower install",
     "start": "./bin/server.js",
     "test": "./bin/test",
     "hint": "./node_modules/jshint/bin/jshint src; echo",
