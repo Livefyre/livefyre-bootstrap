@@ -31,6 +31,11 @@
     }
   }
 
+  // Substitutes for classList.contains in the click event listener so we can ensure IE9 compatibility. 
+  var hasClass = function (element, cls) { 
+    return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
+  }
+
   window.addEventListener('touchstart', function (e) {
     e = e.originalEvent || e;
 
@@ -113,12 +118,18 @@
     var handleWidth = handle.offsetWidth;
     var offset      = toggleWidth - handleWidth;
     //var slideOn     = (!touchMove && !toggle.classList.contains('active')) || (touchMove && (distanceX > (toggleWidth/2 - handleWidth/2)));
-    var slideOn     = !toggle.classList.contains('active');
+
+    // Replace with custom hasClass function since IE9 doesn't recognize classList:
+    // var slideOn  = !toggle.classList.contains('active');
+    var slideOn     = !hasClass(toggle, 'active');
 
     if (slideOn) handle.style.webkitTransform = 'translate3d(' + offset + 'px,0,0)';
     else handle.style.webkitTransform = 'translate3d(0,0,0)';
 
-    toggle.classList[slideOn ? 'add' : 'remove']('active');
+    // Replace with less-elegant conditional since IE9 doesn't recognize classList:
+    // toggle.classList[slideOn ? 'add' : 'remove']('active');
+    if (slideOn) toggle.className += ' active';
+    else toggle.className = toggle.className.replace(' active','');
 
     var evt = document.createEvent("CustomEvent");
     evt.initCustomEvent('toggle',

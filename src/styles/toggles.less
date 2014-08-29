@@ -57,10 +57,12 @@
 .lf-toggle.active .lf-toggle-handle {
   border-color: @lf-green;
   -webkit-transform: translate3d(22px,0,0);
+      -ms-transform: translateX(22px); // IE9 doesn't support 3D transforms
           transform: translate3d(22px,0,0);
 }
 .lf-toggle.lf-toggle-label.active .lf-toggle-handle {
   -webkit-transform: translate3d(48px,0,0);
+      -ms-transform: translateX(48px); // IE9 doesn't support 3D transforms
           transform: translate3d(48px,0,0);
 }
 
@@ -84,6 +86,7 @@
 
   &.active .lf-toggle-handle {
     -webkit-transform: translate3d(14px,0,0);
+      -ms-transform: translateX(14px); // IE9 doesn't support 3D transforms
           transform: translate3d(14px,0,0);
   }
 }
@@ -103,6 +106,7 @@
 
   &.active .lf-toggle-handle {
     -webkit-transform: translate3d(42px,0,0);
+      -ms-transform: translateX(42px); // IE9 doesn't support 3D transforms
           transform: translate3d(42px,0,0);   
   }
 }

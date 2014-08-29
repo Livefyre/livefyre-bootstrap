@@ -20,7 +20,7 @@
     "type": "git",
     "url": "https://github.com/Livefyre/livefyre-bootstrap.git"
   },
-  "version": "1.3.4",
+  "version": "1.3.5",
   "scripts": {
     "postinstall": "./node_modules/bower/bin/bower install",
     "start": "./bin/server.js",
@@ -31,12 +31,12 @@
     "build": "bin/build"
   },
   "devDependencies": {
-    "bower": "1.0.0",
+    "bower": "~1.3.8",
     "jshint": "~1.1.0",
     "jsdoc": "git://github.com/jsdoc3/jsdoc.git",
     "mocha-phantomjs": "3.1.6",
     "phantomjs": "1.9.2-2",
-    "less": "~1.7.0",
+    "less": "1.7.0",
     "portfinder": "~0.2.1",
     "express": "~3.4.7",
     "less-middleware": "~0.1.14",
