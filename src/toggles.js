@@ -33,7 +33,7 @@
 
   // Substitutes for classList.contains in the click event listener so we can ensure IE9 compatibility. 
   var hasClass = function (element, cls) { 
-    return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
+    return element.className.split(/\s+/).indexOf(cls) > -1;
   }
 
   window.addEventListener('touchstart', function (e) {
@@ -117,7 +117,6 @@
     var toggleWidth = toggle.offsetWidth;
     var handleWidth = handle.offsetWidth;
     var offset      = toggleWidth - handleWidth;
-    //var slideOn     = (!touchMove && !toggle.classList.contains('active')) || (touchMove && (distanceX > (toggleWidth/2 - handleWidth/2)));
 
     // Replace with custom hasClass function since IE9 doesn't recognize classList:
     // var slideOn  = !toggle.classList.contains('active');
