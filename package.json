@@ -16,7 +16,7 @@
     "type": "git",
     "url": "https://github.com/Livefyre/livefyre-bootstrap.git"
   },
-  "version": "1.5.4",
+  "version": "1.5.5",
   "scripts": {
     "postinstall": "./node_modules/bower/bin/bower install",
     "start": "./bin/server.js",
@@ -36,7 +36,7 @@
     "lfcdn": "git+ssh://git@github.com:Livefyre/lfcdn",
     "lfeslint": "git+ssh://git@github.com/Livefyre/lfeslint.git",
     "mocha-phantomjs": "3.1.6",
-    "phantomjs": "1.9.2-2",
+    "phantomjs": "2.1.1",
     "portfinder": "~0.2.1"
   },
   "lfeslint": {

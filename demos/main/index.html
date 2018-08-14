@@ -1,15 +1,18 @@
 <!doctype html>
 <html class="lf">
+
 <head>
   <link href="../../dist/all.css" rel="stylesheet">
   <style>
     .row {
       margin-bottom: 50px;
     }
+
     h1 {
       border-bottom: 1px solid #DDD;
       margin-bottom: 20px;
     }
+
     footer {
       display: block;
       height: 100px;
@@ -17,14 +20,64 @@
       float: right;
     }
 
-    .glyphs.css-mapping{margin:0 0 60px 0;padding:30px 0 20px 30px;color:rgba(0,0,0,0.5);border:1px solid #d8e0e5;-webkit-border-radius:3px;border-radius:3px;}
-    .glyphs.css-mapping li{margin:0 30px 20px 0;padding:0;display:inline-block;overflow:hidden}
-    .glyphs.css-mapping .icon{margin:0;margin-right:10px;padding:13px;height:50px;width:50px;color:#162a36 !important;overflow:hidden;float:left;font-size:24px}
-    .glyphs.css-mapping input{margin:0;margin-top:5px;padding:8px;line-height:16px;font-size:16px;display:block;width:150px;height:40px;border:1px solid #d8e0e5;-webkit-border-radius:5px;border-radius:5px;background:#fff;outline:0;float:right;}
-    .glyphs.css-mapping input:focus{border:1px solid #fbde4a;-webkit-box-shadow:inset 0 0 3px #fbde4a;box-shadow:inset 0 0 3px #fbde4a}
-    .glyphs.css-mapping input:hover{-webkit-box-shadow:inset 0 0 3px #fbde4a;box-shadow:inset 0 0 3px #fbde4a}
+    .glyphs.css-mapping {
+      margin: 0 0 60px 0;
+      padding: 30px 0 20px 30px;
+      color: rgba(0, 0, 0, 0.5);
+      border: 1px solid #d8e0e5;
+      -webkit-border-radius: 3px;
+      border-radius: 3px;
+    }
+
+    .glyphs.css-mapping li {
+      margin: 0 30px 20px 0;
+      padding: 0;
+      display: inline-block;
+      overflow: hidden
+    }
+
+    .glyphs.css-mapping .icon {
+      margin: 0;
+      margin-right: 10px;
+      padding: 13px;
+      height: 50px;
+      width: 50px;
+      color: #162a36 !important;
+      overflow: hidden;
+      float: left;
+      font-size: 24px
+    }
+
+    .glyphs.css-mapping input {
+      margin: 0;
+      margin-top: 5px;
+      padding: 8px;
+      line-height: 16px;
+      font-size: 16px;
+      display: block;
+      width: 150px;
+      height: 40px;
+      border: 1px solid #d8e0e5;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      background: #fff;
+      outline: 0;
+      float: right;
+    }
+
+    .glyphs.css-mapping input:focus {
+      border: 1px solid #fbde4a;
+      -webkit-box-shadow: inset 0 0 3px #fbde4a;
+      box-shadow: inset 0 0 3px #fbde4a
+    }
+
+    .glyphs.css-mapping input:hover {
+      -webkit-box-shadow: inset 0 0 3px #fbde4a;
+      box-shadow: inset 0 0 3px #fbde4a
+    }
   </style>
 </head>
+
 <body>
 
   <!-- Static navbar -->
@@ -40,237 +93,328 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
+        <li class="active">
+          <a href="#">Link</a>
+        </li>
+        <li>
+          <a href="#">Link</a>
+        </li>
+        <li>
+          <a href="#">Link</a>
+        </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown
+            <b class="caret"></b>
+          </a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li>
+              <a href="#">Action</a>
+            </li>
+            <li>
+              <a href="#">Another action</a>
+            </li>
+            <li>
+              <a href="#">Something else here</a>
+            </li>
             <li class="divider"></li>
             <li class="dropdown-header">Nav header</li>
-            <li><a href="#">Separated link</a></li>
-            <li><a href="#">One more separated link</a></li>
+            <li>
+              <a href="#">Separated link</a>
+            </li>
+            <li>
+              <a href="#">One more separated link</a>
+            </li>
           </ul>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="./">Link</a></li>
+        <li class="active">
+          <a href="./">Link</a>
+        </li>
       </ul>
-    </div><!--/.nav-collapse -->
-  </div>
-
-
-<div class="container">
-
-  <!-- Main component for a primary marketing message or call to action -->
-  <div class="jumbotron">
-    <h1>Livefyre Bootstrap</h1>
-    <p>"Consistency is one of the most powerful usability principles: when things always behave the same, users don't have to worry about what will happen. Instead, they know what will happen based on earlier experience." -Jakob Nielsen</p>
-    <p>
-    <a class="lf-btn lf-btn-lg btn-primary" href="./" role="button">Click Me</a>
-    </p>
-  </div>
-
-  <div class="row">
-    <div class="col-12">
-      <h1>.nav</h1>
-      <p>.nav is provided by Bootstrap and comes in two themes</p>
-      <section>
-        <h2>.nav-tabs</h2>
-        <ul class="nav nav-tabs">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Messages</a></li>
-        </ul>
-      </section>
-      <section>
-        <h2>.nav-pills</h2>
-        <ul class="nav nav-pills">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Messages</a></li>
-          <li class="dropdown">
-            <a id="drop4" role="button" data-toggle="dropdown" href="#">Dropdown <b class="caret"></b></a>
-            <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Action</a></li>
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Another action</a></li>
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Something else here</a></li>
-              <li role="presentation" class="divider"></li>
-              <li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Separated link</a></li>
-            </ul>
-          </li>
-        </ul>
-      </section>
     </div>
+    <!--/.nav-collapse -->
   </div>
 
-  <div class="row">
-    <div class="col-12">
-      <h1>.lf-bar</h1>
+
+  <div class="container">
+
+    <!-- Main component for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <h1>Livefyre Bootstrap</h1>
+      <p>"Consistency is one of the most powerful usability principles: when things always behave the same, users don't have
+        to worry about what will happen. Instead, they know what will happen based on earlier experience." -Jakob Nielsen</p>
       <p>
-      .lf-bar is provided by livefyre-bootstrap.
-      It can hold a .lf-nav, which extends Bootstrap's .nav and when in a .lf-bar matches the LF style guide.</p>
-      <p>lf-bar has two themes, .lf-bar-default (light) and
-      .lf-bar-inverted (dark)</p>
-      <section>
-        <h2>.lf-bar .lf-nav</h2>
-        <div class="lf-bar">
-          <ul class="lf-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Messages</a></li>
-            <li class="dropdown">
-              <a id="drop4" role="button" data-toggle="dropdown" href="#">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu" role="menu" aria-labelledby="drop4">
-                <li><a>Action</a></li>
-                <li><a>Another action</a></li>
-                <li><a>Something else here</a></li>
-                <li class="divider"></li>
-                <li><a>Separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section>
-        <h2>.lf-bar .lf-bar-default .lf-nav</h2>
-        <div class="lf-bar lf-bar-default">
-          <ul class="lf-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Messages</a></li>
-            <li class="dropdown">
-              <a id="drop4" role="button" data-toggle="dropdown" href="#">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu" role="menu" aria-labelledby="drop4">
-                <li><a>Action</a></li>
-                <li><a>Another action</a></li>
-                <li><a>Something else here</a></li>
-                <li class="divider"></li>
-                <li><a>Separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section>
-        <h2>.lf-bar .lf-bar-inverted .lf-nav</h2>
-        <div class="lf-bar lf-bar-inverted">
-          <ul class="lf-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Messages</a></li>
-            <li class="dropdown">
-              <a id="drop4" role="button" data-toggle="dropdown" href="#">Dropdown <b class="caret"></b></a>
-              <ul class="dropdown-menu" role="menu" aria-labelledby="drop4">
-                <li><a>Action</a></li>
-                <li><a>Another action</a></li>
-                <li><a>Something else here</a></li>
-                <li class="divider"></li>
-                <li><a>Separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-12">
-      <h1>.lf-btn</h1>
-      <p>
-        <!-- Standard button -->
-        <button type="button" class="lf-btn lf-btn-default">Default</button>
-
-        <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-        <button type="button" class="lf-btn lf-btn-primary">Primary</button>
-
-        <!-- Indicates a successful or positive action -->
-        <button type="button" class="lf-btn lf-btn-success">Success</button>
-
-        <!-- Contextual button for informational alert messages -->
-        <button type="button" class="lf-btn lf-btn-info">Info</button>
-
-        <!-- Indicates caution should be taken with this action -->
-        <button type="button" class="lf-btn lf-btn-warning">Warning</button>
-
-        <!-- Indicates a dangerous or potentially negative action -->
-        <button type="button" class="lf-btn lf-btn-danger">Danger</button>
-
-        <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
-        <button type="button" class="lf-btn lf-btn-link">Link</button> 
+        <a class="lf-btn lf-btn-lg btn-primary" href="./" role="button">Click Me</a>
       </p>
-      <!-- Button with a fycon -->
-      <p>
-        <button class="lf-btn lf-btn-lg lf-btn-primary">
-          <i class="fycon-admin-delete"></i>
-        </button>
-
-        <a class="lf-btn lf-btn-lg lf-btn-primary">
-          <i class="fycon-arrow-left"></i>
-          <span>Collections</span>
-        </a>
-
-        <a class="lf-btn lf-btn-primary">
-          <i class="fycon-arrow-left"></i>
-          <span>Collections</span>
-        </a>
-
-        <a class="lf-btn-sm lf-btn-primary">
-          <i class="fycon-arrow-left"></i>
-          <span>Collections</span>
-        </a>
-      </p>
-
-      <section>
-        <h2>.lf-btn-lg, .lf-btn-sm, .lf-btn-xs</h2>
-        <p>
-          <button type="button" class="lf-btn lf-btn-primary lf-btn-lg">Large button</button>
-          <button type="button" class="lf-btn lf-btn-default lf-btn-lg">Large button</button>
-        </p>
-        <p>
-          <button type="button" class="lf-btn lf-btn-primary">Default button</button>
-          <button type="button" class="lf-btn lf-btn-default">Default button</button>
-        </p>
-        <p>
-          <button type="button" class="lf-btn lf-btn-primary lf-btn-sm">Small button</button>
-          <button type="button" class="lf-btn lf-btn-default lf-btn-sm">Small button</button>
-        </p>
-        <p>
-          <button type="button" class="lf-btn lf-btn-primary lf-btn-xs">Extra small button</button>
-          <button type="button" class="lf-btn lf-btn-default lf-btn-xs">Extra small button</button>
-        </p>
-      </section>
-
-      <section>
-        <h2>.lf-btn-block</h2>
-        <button type="button" class="btn btn-primary btn-lg lf-btn-block">Block level button</button>
-        <button type="button" class="btn btn-default btn-lg lf-btn-block">Block level button</button>
-      </section>
-
-      <section>
-        <h2>.lf-btn[disabled=disabled]</h2>
-        <button type="button" class="lf-btn lf-btn-lg lf-btn-primary" disabled="disabled">Primary button</button>
-        <button type="button" class="lf-btn lf-btn-default lf-btn-lg" disabled="disabled">Button</button>
-      </section>
     </div>
-  </div>
 
-  <div class="row">
-    <div class="col-12">
-      <h1>.lf-btn-group</h1>
-      <div class="lf-btn-group">
-        <button type="button" class="lf-btn lf-btn-default">Left</button>
-        <button type="button" class="lf-btn lf-btn-default">Middle</button>
-        <button type="button" class="lf-btn lf-btn-default">Right</button>
+    <div class="row">
+      <div class="col-12">
+        <h1>.nav</h1>
+        <p>.nav is provided by Bootstrap and comes in two themes</p>
+        <section>
+          <h2>.nav-tabs</h2>
+          <ul class="nav nav-tabs">
+            <li class="active">
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Profile</a>
+            </li>
+            <li>
+              <a href="#">Messages</a>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>.nav-pills</h2>
+          <ul class="nav nav-pills">
+            <li class="active">
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Profile</a>
+            </li>
+            <li>
+              <a href="#">Messages</a>
+            </li>
+            <li class="dropdown">
+              <a id="drop4" role="button" data-toggle="dropdown" href="#">Dropdown
+                <b class="caret"></b>
+              </a>
+              <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Action</a>
+                </li>
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Another action</a>
+                </li>
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Something else here</a>
+                </li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation">
+                  <a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Separated link</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
       </div>
+    </div>
 
-      <section>
-        <h2>.lf-btn-toolbar</h2>
-        <div class="lf-btn-toolbar" role="toolbar" style="margin: 0;">
+    <div class="row">
+      <div class="col-12">
+        <h1>.lf-bar</h1>
+        <p>
+          .lf-bar is provided by livefyre-bootstrap. It can hold a .lf-nav, which extends Bootstrap's .nav and when in a .lf-bar matches
+          the LF style guide.</p>
+        <p>lf-bar has two themes, .lf-bar-default (light) and .lf-bar-inverted (dark)</p>
+        <section>
+          <h2>.lf-bar .lf-nav</h2>
+          <div class="lf-bar">
+            <ul class="lf-nav">
+              <li class="active">
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Profile</a>
+              </li>
+              <li>
+                <a href="#">Messages</a>
+              </li>
+              <li class="dropdown">
+                <a id="drop4" role="button" data-toggle="dropdown" href="#">Dropdown
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="drop4">
+                  <li>
+                    <a>Action</a>
+                  </li>
+                  <li>
+                    <a>Another action</a>
+                  </li>
+                  <li>
+                    <a>Something else here</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <a>Separated link</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h2>.lf-bar .lf-bar-default .lf-nav</h2>
+          <div class="lf-bar lf-bar-default">
+            <ul class="lf-nav">
+              <li class="active">
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Profile</a>
+              </li>
+              <li>
+                <a href="#">Messages</a>
+              </li>
+              <li class="dropdown">
+                <a id="drop4" role="button" data-toggle="dropdown" href="#">Dropdown
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="drop4">
+                  <li>
+                    <a>Action</a>
+                  </li>
+                  <li>
+                    <a>Another action</a>
+                  </li>
+                  <li>
+                    <a>Something else here</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <a>Separated link</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section>
+          <h2>.lf-bar .lf-bar-inverted .lf-nav</h2>
+          <div class="lf-bar lf-bar-inverted">
+            <ul class="lf-nav">
+              <li class="active">
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Profile</a>
+              </li>
+              <li>
+                <a href="#">Messages</a>
+              </li>
+              <li class="dropdown">
+                <a id="drop4" role="button" data-toggle="dropdown" href="#">Dropdown
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="drop4">
+                  <li>
+                    <a>Action</a>
+                  </li>
+                  <li>
+                    <a>Another action</a>
+                  </li>
+                  <li>
+                    <a>Something else here</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li>
+                    <a>Separated link</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <h1>.lf-btn</h1>
+        <p>
+          <!-- Standard button -->
+          <button type="button" class="lf-btn lf-btn-default">Default</button>
+
+          <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+          <button type="button" class="lf-btn lf-btn-primary">Primary</button>
+
+          <!-- Indicates a successful or positive action -->
+          <button type="button" class="lf-btn lf-btn-success">Success</button>
+
+          <!-- Contextual button for informational alert messages -->
+          <button type="button" class="lf-btn lf-btn-info">Info</button>
+
+          <!-- Indicates caution should be taken with this action -->
+          <button type="button" class="lf-btn lf-btn-warning">Warning</button>
+
+          <!-- Indicates a dangerous or potentially negative action -->
+          <button type="button" class="lf-btn lf-btn-danger">Danger</button>
+
+          <!-- Deemphasize a button by making it look like a link while maintaining button behavior -->
+          <button type="button" class="lf-btn lf-btn-link">Link</button>
+        </p>
+        <!-- Button with a fycon -->
+        <p>
+          <button class="lf-btn lf-btn-lg lf-btn-primary">
+            <i class="fycon-admin-delete"></i>
+          </button>
+
+          <a class="lf-btn lf-btn-lg lf-btn-primary">
+            <i class="fycon-arrow-left"></i>
+            <span>Collections</span>
+          </a>
+
+          <a class="lf-btn lf-btn-primary">
+            <i class="fycon-arrow-left"></i>
+            <span>Collections</span>
+          </a>
+
+          <a class="lf-btn-sm lf-btn-primary">
+            <i class="fycon-arrow-left"></i>
+            <span>Collections</span>
+          </a>
+        </p>
+
+        <section>
+          <h2>.lf-btn-lg, .lf-btn-sm, .lf-btn-xs</h2>
+          <p>
+            <button type="button" class="lf-btn lf-btn-primary lf-btn-lg">Large button</button>
+            <button type="button" class="lf-btn lf-btn-default lf-btn-lg">Large button</button>
+          </p>
+          <p>
+            <button type="button" class="lf-btn lf-btn-primary">Default button</button>
+            <button type="button" class="lf-btn lf-btn-default">Default button</button>
+          </p>
+          <p>
+            <button type="button" class="lf-btn lf-btn-primary lf-btn-sm">Small button</button>
+            <button type="button" class="lf-btn lf-btn-default lf-btn-sm">Small button</button>
+          </p>
+          <p>
+            <button type="button" class="lf-btn lf-btn-primary lf-btn-xs">Extra small button</button>
+            <button type="button" class="lf-btn lf-btn-default lf-btn-xs">Extra small button</button>
+          </p>
+        </section>
+
+        <section>
+          <h2>.lf-btn-block</h2>
+          <button type="button" class="btn btn-primary btn-lg lf-btn-block">Block level button</button>
+          <button type="button" class="btn btn-default btn-lg lf-btn-block">Block level button</button>
+        </section>
+
+        <section>
+          <h2>.lf-btn[disabled=disabled]</h2>
+          <button type="button" class="lf-btn lf-btn-lg lf-btn-primary" disabled="disabled">Primary button</button>
+          <button type="button" class="lf-btn lf-btn-default lf-btn-lg" disabled="disabled">Button</button>
+        </section>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <h1>.lf-btn-group</h1>
+        <div class="lf-btn-group">
+          <button type="button" class="lf-btn lf-btn-default">Left</button>
+          <button type="button" class="lf-btn lf-btn-default">Middle</button>
+          <button type="button" class="lf-btn lf-btn-default">Right</button>
+        </div>
+
+        <section>
+          <h2>.lf-btn-toolbar</h2>
+          <div class="lf-btn-toolbar" role="toolbar" style="margin: 0;">
             <div class="lf-btn-group">
               <button type="button" class="lf-btn lf-btn-default">1</button>
               <button type="button" class="lf-btn lf-btn-default">2</button>
@@ -285,1019 +429,1079 @@
             <div class="lf-btn-group">
               <button type="button" class="lf-btn lf-btn-default">8</button>
             </div>
-      </div>
-      </section>
+          </div>
+        </section>
 
-      <section>
-        <h2>.lf-btn-group-lg, .lf-btn-group-sm, .lf-btn-group-sx</h2>
-            <div class="lf-btn-toolbar" role="toolbar">
-              <div class="lf-btn-group lf-btn-group-lg">
-                <button type="button" class="lf-btn lf-btn-default">Left</button>
-                <button type="button" class="lf-btn lf-btn-default">Middle</button>
-                <button type="button" class="lf-btn lf-btn-default">Right</button>
+        <section>
+          <h2>.lf-btn-group-lg, .lf-btn-group-sm, .lf-btn-group-sx</h2>
+          <div class="lf-btn-toolbar" role="toolbar">
+            <div class="lf-btn-group lf-btn-group-lg">
+              <button type="button" class="lf-btn lf-btn-default">Left</button>
+              <button type="button" class="lf-btn lf-btn-default">Middle</button>
+              <button type="button" class="lf-btn lf-btn-default">Right</button>
+            </div>
+          </div>
+          <div class="lf-btn-toolbar" role="toolbar">
+            <div class="lf-btn-group">
+              <button type="button" class="lf-btn lf-btn-default">Left</button>
+              <button type="button" class="lf-btn lf-btn-default">Middle</button>
+              <button type="button" class="lf-btn lf-btn-default">Right</button>
+            </div>
+          </div>
+          <div class="lf-btn-toolbar" role="toolbar">
+            <div class="lf-btn-group lf-btn-group-sm">
+              <button type="button" class="lf-btn lf-btn-default">Left</button>
+              <button type="button" class="lf-btn lf-btn-default">Middle</button>
+              <button type="button" class="lf-btn lf-btn-default">Right</button>
+            </div>
+          </div>
+          <div class="lf-btn-toolbar" role="toolbar">
+            <div class="lf-btn-group lf-btn-group-xs">
+              <button type="button" class="lf-btn lf-btn-default">Left</button>
+              <button type="button" class="lf-btn lf-btn-default">Middle</button>
+              <button type="button" class="lf-btn lf-btn-default">Right</button>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>.lf-btn-group-vertical</h2>
+          <div class="lf-btn-group-vertical">
+            <button type="button" class="lf-btn lf-btn-default">Button</button>
+            <button type="button" class="lf-btn lf-btn-default">Button</button>
+            <div class="lf-btn-group">
+              <button id="lf-btnGroupVerticalDrop1" type="button" class="lf-btn lf-btn-default dropdown-toggle" data-toggle="dropdown">
+                Dropdown
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="lf-btnGroupVerticalDrop1">
+                <li>
+                  <a href="#">Dropdown link</a>
+                </li>
+                <li>
+                  <a href="#">Dropdown link</a>
+                </li>
+              </ul>
+            </div>
+            <button type="button" class="lf-btn lf-btn-default">Button</button>
+            <button type="button" class="lf-btn lf-btn-default">Button</button>
+            <div class="lf-btn-group">
+              <button id="lf-btnGroupVerticalDrop2" type="button" class="lf-btn lf-btn-default dropdown-toggle" data-toggle="dropdown">
+                Dropdown
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="lf-btnGroupVerticalDrop2">
+                <li>
+                  <a href="#">Dropdown link</a>
+                </li>
+                <li>
+                  <a href="#">Dropdown link</a>
+                </li>
+              </ul>
+            </div>
+            <div class="lf-btn-group">
+              <button id="lf-btnGroupVerticalDrop3" type="button" class="lf-btn lf-btn-default dropdown-toggle" data-toggle="dropdown">
+                Dropdown
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="lf-btnGroupVerticalDrop3">
+                <li>
+                  <a href="#">Dropdown link</a>
+                </li>
+                <li>
+                  <a href="#">Dropdown link</a>
+                </li>
+              </ul>
+            </div>
+            <div class="lf-btn-group">
+              <button id="lf-btnGroupVerticalDrop4" type="button" class="lf-btn lf-btn-default dropdown-toggle" data-toggle="dropdown">
+                Dropdown
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="lf-btnGroupVerticalDrop4">
+                <li>
+                  <a href="#">Dropdown link</a>
+                </li>
+                <li>
+                  <a href="#">Dropdown link</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <h1>Labels</h1>
+        <span class="lf-label lf-label-default">Default</span>
+        <span class="lf-label lf-label-primary">Primary</span>
+        <span class="lf-label lf-label-success">Success</span>
+        <span class="lf-label lf-label-info">Info</span>
+        <span class="lf-label lf-label-warning">Warning</span>
+        <span class="lf-label lf-label-danger">Danger</span>
+      </div>
+      <h3>Available Sizes</h3>
+      <div class="col-12">
+        <span class="label label-primary lf-label-xl">lf-label-xl</span>
+        <span class="label label-primary lf-label-lg">lf-label-lg</span>
+        <span class="label label-primary lf-label-md">lf-label-md</span>
+        <span class="label label-primary">lf-label</span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <h1>Badges</h1>
+        <ul class="nav nav-pills lf-nav-pills">
+          <li class="active">
+            <a href="#">Home
+              <span class="lf-badge">42</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">Profile</a>
+          </li>
+          <li>
+            <a href="#">Messages
+              <span class="lf-badge">3</span>
+            </a>
+          </li>
+        </ul>
+        <br>
+        <ul class="nav nav-pills nav-stacked lf-nav-pills" style="max-width: 260px;">
+          <li class="active">
+            <a href="#">
+              <span class="lf-badge pull-right">42</span>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#">Profile</a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="lf-badge pull-right">3</span>
+              Messages
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Avatar Sizes</h1>
+        <div class="lf-avatar lf-avatar-lg">
+          <img src="http://placehold.it/96x96">
+        </div>
+        <div class="lf-avatar">
+          <img src="http://placehold.it/48x48">
+        </div>
+        <div class="lf-avatar lf-avatar-sm">
+          <img src="http://placehold.it/36x36">
+        </div>
+        <div class="lf-avatar lf-avatar-xs">
+          <img src="http://placehold.it/24x24">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <h1>Alerts</h1>
+      <div class="lf-alert lf-alert-warning lf-alert-dismissable">
+        There was a problem making that change. Please try again.
+        <button type="button" class="lf-close light" data-dismiss="alert" aria-hidden="true">
+          <i class="fycon-x"></i>
+        </button>
+      </div>
+      <div class="lf-alert lf-alert-success lf-alert-dismissable">
+        Success! That worked.
+        <button type="button" class="lf-close light" data-dismiss="alert" aria-hidden="true">
+          <i class="fycon-x"></i>
+        </button>
+      </div>
+      <div class="lf-alert lf-alert-info lf-alert-dismissable">
+        There was an error loading details
+        <button type="button" class="lf-close light" data-dismiss="alert" aria-hidden="true">
+          <i class="fycon-x"></i>
+        </button>
+      </div>
+      <div class="lf-alert lf-alert-danger lf-alert-dismissable">
+        Holy cow, Need a better red
+        <button type="button" class="lf-close light" data-dismiss="alert" aria-hidden="true">
+          <i class="fycon-x"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <h1>.lf-toggle</h1>
+        <div class="row">
+          <div class="lf-toggle active">
+            <div class="lf-toggle-handle"></div>
+          </div>
+          <div class="lf-toggle">
+            <div class="lf-toggle-handle"></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="lf-toggle lf-toggle-label active">
+            <div class="lf-toggle-handle"></div>
+          </div>
+          <div class="lf-toggle lf-toggle-label">
+            <div class="lf-toggle-handle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <style>
+          .lf .lf-modal {
+            display: block;
+            position: relative;
+          }
+        </style>
+        <h1>.lf-modal</h1>
+        <div class="lf-modal" style="background-color: rgba(0,0,0,0.8)">
+          <div class="lf-modal-dialog">
+            <div class="lf-modal-content">
+              <div class="lf-modal-header">
+                <button type="button" class="lf-close" data-dismiss="modal" aria-hidden="true">
+                  <i class="fycon-x"></i>
+                </button>
+                <h4 class="lf-modal-title">Modal title</h4>
+              </div>
+              <div class="lf-modal-body">
+                <p>One fine body…</p>
+              </div>
+              <div class="lf-modal-footer">
+                <button type="button" class="lf-btn lf-btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="lf-btn lf-btn-primary">Save changes</button>
               </div>
             </div>
-            <div class="lf-btn-toolbar" role="toolbar">
-              <div class="lf-btn-group">
-                <button type="button" class="lf-btn lf-btn-default">Left</button>
-                <button type="button" class="lf-btn lf-btn-default">Middle</button>
-                <button type="button" class="lf-btn lf-btn-default">Right</button>
-              </div>
-            </div>
-            <div class="lf-btn-toolbar" role="toolbar">
-              <div class="lf-btn-group lf-btn-group-sm">
-                <button type="button" class="lf-btn lf-btn-default">Left</button>
-                <button type="button" class="lf-btn lf-btn-default">Middle</button>
-                <button type="button" class="lf-btn lf-btn-default">Right</button>
-              </div>
-            </div>
-            <div class="lf-btn-toolbar" role="toolbar">
-              <div class="lf-btn-group lf-btn-group-xs">
-                <button type="button" class="lf-btn lf-btn-default">Left</button>
-                <button type="button" class="lf-btn lf-btn-default">Middle</button>
-                <button type="button" class="lf-btn lf-btn-default">Right</button>
-              </div>
-            </div>
-      </section>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+      </div>
+    </div>
 
-      <section>
-        <h2>.lf-btn-group-vertical</h2>
-        <div class="lf-btn-group-vertical">
-          <button type="button" class="lf-btn lf-btn-default">Button</button>
-          <button type="button" class="lf-btn lf-btn-default">Button</button>
-          <div class="lf-btn-group">
-            <button id="lf-btnGroupVerticalDrop1" type="button" class="lf-btn lf-btn-default dropdown-toggle" data-toggle="dropdown">
-              Dropdown
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="lf-btnGroupVerticalDrop1">
-              <li><a href="#">Dropdown link</a></li>
-              <li><a href="#">Dropdown link</a></li>
-            </ul>
-          </div>
-          <button type="button" class="lf-btn lf-btn-default">Button</button>
-          <button type="button" class="lf-btn lf-btn-default">Button</button>
-          <div class="lf-btn-group">
-            <button id="lf-btnGroupVerticalDrop2" type="button" class="lf-btn lf-btn-default dropdown-toggle" data-toggle="dropdown">
-              Dropdown
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="lf-btnGroupVerticalDrop2">
-              <li><a href="#">Dropdown link</a></li>
-              <li><a href="#">Dropdown link</a></li>
-            </ul>
-          </div>
-          <div class="lf-btn-group">
-            <button id="lf-btnGroupVerticalDrop3" type="button" class="lf-btn lf-btn-default dropdown-toggle" data-toggle="dropdown">
-              Dropdown
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="lf-btnGroupVerticalDrop3">
-              <li><a href="#">Dropdown link</a></li>
-              <li><a href="#">Dropdown link</a></li>
-            </ul>
-          </div>
-          <div class="lf-btn-group">
-            <button id="lf-btnGroupVerticalDrop4" type="button" class="lf-btn lf-btn-default dropdown-toggle" data-toggle="dropdown">
-              Dropdown
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="lf-btnGroupVerticalDrop4">
-              <li><a href="#">Dropdown link</a></li>
-              <li><a href="#">Dropdown link</a></li>
-            </ul>
+    <div class="row">
+      <div class="col-12">
+        <style>
+          .lf .lf-popover {
+            position: relative;
+          }
+        </style>
+        <h1>.lf-popover</h1>
+
+        <div class="row">
+          <div class="lf-popover top">
+            <div class="lf-arrow"></div>
+            <h3 class="lf-popover-title">Popover top</h3>
+            <div class="lf-popover-content">
+              <p>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                vestibulum.
+              </p>
+            </div>
           </div>
         </div>
-      </section>
-    </div>
-  </div>
 
-  <div class="row">
-    <div class="col-12">
-      <h1>Labels</h1>
-      <span class="lf-label lf-label-default">Default</span>
-      <span class="lf-label lf-label-primary">Primary</span>
-      <span class="lf-label lf-label-success">Success</span>
-      <span class="lf-label lf-label-info">Info</span>
-      <span class="lf-label lf-label-warning">Warning</span>
-      <span class="lf-label lf-label-danger">Danger</span>
-    </div>
-    <h3>Available Sizes</h3>
-    <div class="col-12">
-      <span class="label label-primary lf-label-xl">lf-label-xl</span>
-      <span class="label label-primary lf-label-lg">lf-label-lg</span>
-      <span class="label label-primary lf-label-md">lf-label-md</span>
-      <span class="label label-primary">lf-label</span>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-12">
-      <h1>Badges</h1>
-      <ul class="nav nav-pills lf-nav-pills">
-        <li class="active"><a href="#">Home <span class="lf-badge">42</span></a></li>
-        <li><a href="#">Profile</a></li>
-        <li><a href="#">Messages <span class="lf-badge">3</span></a></li>
-      </ul>
-      <br>
-      <ul class="nav nav-pills nav-stacked lf-nav-pills" style="max-width: 260px;">
-        <li class="active">
-          <a href="#">
-            <span class="lf-badge pull-right">42</span>
-            Home
-          </a>
-        </li>
-        <li><a href="#">Profile</a></li>
-        <li>
-          <a href="#">
-            <span class="lf-badge pull-right">3</span>
-            Messages
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-12">
-      <h1>Avatar Sizes</h1>
-      <div class="lf-avatar lf-avatar-lg">
-        <img src="http://placehold.it/96x96">
-      </div>
-      <div class="lf-avatar">
-        <img src="http://placehold.it/48x48">
-      </div>
-      <div class="lf-avatar lf-avatar-sm">
-        <img src="http://placehold.it/36x36">
-      </div>
-      <div class="lf-avatar lf-avatar-xs">
-        <img src="http://placehold.it/24x24">
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <h1>Alerts</h1>
-    <div class="lf-alert lf-alert-warning lf-alert-dismissable">
-      There was a problem making that change. Please try again.
-      <button type="button" class="lf-close light" data-dismiss="alert" aria-hidden="true">
-        <i class="fycon-x"></i>
-      </button>
-    </div>
-    <div class="lf-alert lf-alert-success lf-alert-dismissable">
-      Success! That worked.
-      <button type="button" class="lf-close light" data-dismiss="alert" aria-hidden="true">
-        <i class="fycon-x"></i>
-      </button>
-    </div>
-    <div class="lf-alert lf-alert-info lf-alert-dismissable">
-      There was an error loading details
-      <button type="button" class="lf-close light" data-dismiss="alert" aria-hidden="true">
-        <i class="fycon-x"></i>
-      </button>
-    </div>
-    <div class="lf-alert lf-alert-danger lf-alert-dismissable">
-      Holy cow, Need a better red
-      <button type="button" class="lf-close light" data-dismiss="alert" aria-hidden="true">
-        <i class="fycon-x"></i>
-      </button>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-12">
-      <h1>.lf-toggle</h1>
-      <div class="row">
-        <div class="lf-toggle active">
-          <div class="lf-toggle-handle"></div>
-        </div>
-        <div class="lf-toggle">
-          <div class="lf-toggle-handle"></div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="lf-toggle lf-toggle-label active">
-          <div class="lf-toggle-handle"></div>
-        </div>
-        <div class="lf-toggle lf-toggle-label">
-          <div class="lf-toggle-handle"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-12">
-      <style>
-        .lf .lf-modal { display: block; position: relative; }
-      </style>
-      <h1>.lf-modal</h1>
-      <div class="lf-modal" style="background-color: rgba(0,0,0,0.8)">
-        <div class="lf-modal-dialog">
-          <div class="lf-modal-content">
-            <div class="lf-modal-header">
-              <button type="button" class="lf-close" data-dismiss="modal" aria-hidden="true"><i class="fycon-x"></i></button>
-              <h4 class="lf-modal-title">Modal title</h4>
+        <div class="row">
+          <div class="lf-popover bottom">
+            <div class="lf-arrow"></div>
+            <h3 class="lf-popover-title">Popover top</h3>
+            <div class="lf-popover-content">
+              <p>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                vestibulum.
+              </p>
             </div>
-            <div class="lf-modal-body">
-              <p>One fine body…</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="lf-popover right">
+            <div class="lf-arrow"></div>
+            <h3 class="lf-popover-title">Popover top</h3>
+            <div class="lf-popover-content">
+              <p>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                vestibulum.
+              </p>
             </div>
-            <div class="lf-modal-footer">
-              <button type="button" class="lf-btn lf-btn-default" data-dismiss="modal">Close</button>
-              <button type="button" class="lf-btn lf-btn-primary">Save changes</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="lf-popover left">
+            <div class="lf-arrow"></div>
+            <h3 class="lf-popover-title">Popover top</h3>
+            <div class="lf-popover-content">
+              <p>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                vestibulum.
+              </p>
             </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
+          </div>
+        </div>
+
       </div>
     </div>
-  </div>
 
-  <div class="row">
-    <div class="col-12">
-      <style>
-        .lf .lf-popover { position: relative; }
-      </style>
-      <h1>.lf-popover</h1>
-
-      <div class="row">
-      <div class="lf-popover top">
-        <div class="lf-arrow"></div>
-        <h3 class="lf-popover-title">Popover top</h3>
-        <div class="lf-popover-content">
-          <p>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-        </div>
-      </div>
-      </div>
-
-      <div class="row"> 
-      <div class="lf-popover bottom">
-        <div class="lf-arrow"></div>
-        <h3 class="lf-popover-title">Popover top</h3>
-        <div class="lf-popover-content">
-          <p>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-        </div>
-      </div>
-      </div>
-
-      <div class="row"> 
-      <div class="lf-popover right">
-        <div class="lf-arrow"></div>
-        <h3 class="lf-popover-title">Popover top</h3>
-        <div class="lf-popover-content">
-          <p>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-        </div>
-      </div>
-      </div>
-
-      <div class="row"> 
-      <div class="lf-popover left">
-        <div class="lf-arrow"></div>
-        <h3 class="lf-popover-title">Popover top</h3>
-        <div class="lf-popover-content">
-          <p>Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-        </div>
-      </div>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-12">
-      <h1>.lf-dropdown</h1>
-      <p>
-      .lf-dropdown is provided by livefyre-bootstrap.</p>
-      <section>
-        <h2>.lf-dropdown-menu</h2>
+    <div class="row">
+      <div class="col-12">
+        <h1>.lf-dropdown</h1>
+        <p>
+          .lf-dropdown is provided by livefyre-bootstrap.</p>
+        <section>
+          <h2>.lf-dropdown-menu</h2>
           <div class="lf-dropdown open">
-            <a id="drop4" role="button" data-toggle="dropdown" href="#">Dropdown <b class="caret"></b></a>
+            <a id="drop4" role="button" data-toggle="dropdown" href="#">Dropdown
+              <b class="caret"></b>
+            </a>
             <ul class="lf-dropdown-menu" role="menu" aria-labelledby="drop4">
-              <li><a>Action</a></li>
-              <li><a>Another action</a></li>
-              <li><a>Something else here</a></li>
+              <li>
+                <a>Action</a>
+              </li>
+              <li>
+                <a>Another action</a>
+              </li>
+              <li>
+                <a>Something else here</a>
+              </li>
               <li class="divider"></li>
-              <li><a>Separated link</a></li>
+              <li>
+                <a>Separated link</a>
+              </li>
             </ul>
           </div>
-      </section>
+        </section>
+      </div>
     </div>
-  </div>
 
 
-  <div class="row">
-    <h1><i class="fycon-source-livefyre"></i>cons (Fycons)</h1>
-    <div class="col-12" style="font-size: 2em;">
-      <ul class="glyphs css-mapping">
-        <li>
-          <div class="icon fycon-action-etc"></div>
-          <input type="text" readonly="readonly" value="action-etc">
-        </li>
-        <li>
-          <div class="icon fycon-action-favorite"></div>
-          <input type="text" readonly="readonly" value="action-favorite">
-        </li>
-        <li>
-          <div class="icon fycon-action-favorite-empty"></div>
-          <input type="text" readonly="readonly" value="action-favorite-empty">
-        </li>
-        <li>
-          <div class="icon fycon-action-favorite-half"></div>
-          <input type="text" readonly="readonly" value="action-favorite-half">
-        </li>
-        <li>
-          <div class="icon fycon-action-helpful"></div>
-          <input type="text" readonly="readonly" value="action-helpful">
-        </li>
-        <li>
-          <div class="icon fycon-action-like"></div>
-          <input type="text" readonly="readonly" value="action-like">
-        </li>
-        <li>
-          <div class="icon fycon-action-reply"></div>
-          <input type="text" readonly="readonly" value="action-reply">
-        </li>
-        <li>
-          <div class="icon fycon-action-reply-right"></div>
-          <input type="text" readonly="readonly" value="action-reply-right">
-        </li>
-        <li>
-          <div class="icon fycon-action-retweet"></div>
-          <input type="text" readonly="readonly" value="action-retweet">
-        </li>
-        <li>
-          <div class="icon fycon-action-share"></div>
-          <input type="text" readonly="readonly" value="action-share">
-        </li>
-        <li>
-          <div class="icon fycon-action-unhelpful"></div>
-          <input type="text" readonly="readonly" value="action-unhelpful">
-        </li>
-        <li>
-          <div class="icon fycon-action-view"></div>
-          <input type="text" readonly="readonly" value="action-view">
-        </li>
-        <li>
-          <div class="icon fycon-admin-ban"></div>
-          <input type="text" readonly="readonly" value="admin-ban">
-        </li>
-        <li>
-          <div class="icon fycon-admin-bozo"></div>
-          <input type="text" readonly="readonly" value="admin-bozo">
-        </li>
-        <li>
-          <div class="icon fycon-admin-delete"></div>
-          <input type="text" readonly="readonly" value="admin-delete">
-        </li>
-        <li>
-          <div class="icon fycon-admin-flag"></div>
-          <input type="text" readonly="readonly" value="admin-flag">
-        </li>
-        <li>
-          <div class="icon fycon-alert"></div>
-          <input type="text" readonly="readonly" value="alert">
-        </li>
-        <li>
-          <div class="icon fycon-analytics"></div>
-          <input type="text" readonly="readonly" value="analytics">
-        </li>
-        <li>
-          <div class="icon fycon-apps"></div>
-          <input type="text" readonly="readonly" value="apps">
-        </li>
-        <li>
-          <div class="icon fycon-archive"></div>
-          <input type="text" readonly="readonly" value="archive">
-        </li>
-        <li>
-          <div class="icon fycon-arrow-back"></div>
-          <input type="text" readonly="readonly" value="arrow-back">
-        </li>
-        <li>
-          <div class="icon fycon-arrow-down"></div>
-          <input type="text" readonly="readonly" value="arrow-down">
-        </li>
-        <li>
-          <div class="icon fycon-arrow-down-circle"></div>
-          <input type="text" readonly="readonly" value="arrow-down-circle">
-        </li>
-        <li>
-          <div class="icon fycon-arrow-left"></div>
-          <input type="text" readonly="readonly" value="arrow-left">
-        </li>
-        <li>
-          <div class="icon fycon-arrow-right"></div>
-          <input type="text" readonly="readonly" value="arrow-right">
-        </li>
-        <li>
-          <div class="icon fycon-arrow-up"></div>
-          <input type="text" readonly="readonly" value="arrow-up">
-        </li>
-        <li>
-          <div class="icon fycon-arrow-up-circle"></div>
-          <input type="text" readonly="readonly" value="arrow-up-circle">
-        </li>
-        <li>
-          <div class="icon fycon-article"></div>
-          <input type="text" readonly="readonly" value="article">
-        </li>
-        <li>
-          <div class="icon fycon-bell"></div>
-          <input type="text" readonly="readonly" value="bell">
-        </li>
-        <li>
-          <div class="icon fycon-bolt"></div>
-          <input type="text" readonly="readonly" value="bolt">
-        </li>
-        <li>
-          <div class="icon fycon-calendar"></div>
-          <input type="text" readonly="readonly" value="calendar">
-        </li>
-        <li>
-          <div class="icon fycon-check"></div>
-          <input type="text" readonly="readonly" value="check">
-        </li>
-        <li>
-          <div class="icon fycon-clock"></div>
-          <input type="text" readonly="readonly" value="clock">
-        </li>
-        <li>
-          <div class="icon fycon-collections"></div>
-          <input type="text" readonly="readonly" value="collections">
-        </li>
-        <li>
-          <div class="icon fycon-composer-emoticons"></div>
-          <input type="text" readonly="readonly" value="composer-emoticons">
-        </li>
-        <li>
-          <div class="icon fycon-composer-format1"></div>
-          <input type="text" readonly="readonly" value="composer-format1">
-        </li>
-        <li>
-          <div class="icon fycon-composer-format2"></div>
-          <input type="text" readonly="readonly" value="composer-format2">
-        </li>
-        <li>
-          <div class="icon fycon-composer-mention"></div>
-          <input type="text" readonly="readonly" value="composer-mention">
-        </li>
-        <li>
-          <div class="icon fycon-composer-photo"></div>
-          <input type="text" readonly="readonly" value="composer-photo">
-        </li>
-        <li>
-          <div class="icon fycon-composer-sad"></div>
-          <input type="text" readonly="readonly" value="composer-sad">
-        </li>
-        <li>
-          <div class="icon fycon-connect"></div>
-          <input type="text" readonly="readonly" value="connect">
-        </li>
-        <li>
-          <div class="icon fycon-connection-lost"></div>
-          <input type="text" readonly="readonly" value="connection-lost">
-        </li>
-        <li>
-          <div class="icon fycon-content"></div>
-          <input type="text" readonly="readonly" value="content">
-        </li>
-        <li>
-          <div class="icon fycon-copy-to-clipboard"></div>
-          <input type="text" readonly="readonly" value="copy-to-clipboard">
-        </li>
-        <li>
-          <div class="icon fycon-download"></div>
-          <input type="text" readonly="readonly" value="download">
-        </li>
-        <li>
-          <div class="icon fycon-duplicate"></div>
-          <input type="text" readonly="readonly" value="duplicate">
-        </li>
-        <li>
-          <div class="icon fycon-edit"></div>
-          <input type="text" readonly="readonly" value="edit">
-        </li>
-        <li>
-          <div class="icon fycon-edit-2"></div>
-          <input type="text" readonly="readonly" value="edit-2">
-        </li>
-        <li>
-          <div class="icon fycon-email"></div>
-          <input type="text" readonly="readonly" value="email">
-        </li>
-        <li>
-          <div class="icon fycon-embed"></div>
-          <input type="text" readonly="readonly" value="embed">
-        </li>
-        <li>
-          <div class="icon fycon-expand"></div>
-          <input type="text" readonly="readonly" value="expand">
-        </li>
-        <li>
-          <div class="icon fycon-export"></div>
-          <input type="text" readonly="readonly" value="export">
-        </li>
-        <li>
-          <div class="icon fycon-eye"></div>
-          <input type="text" readonly="readonly" value="eye">
-        </li>
-        <li>
-          <div class="icon fycon-feature"></div>
-          <input type="text" readonly="readonly" value="feature">
-        </li>
-        <li>
-          <div class="icon fycon-film"></div>
-          <input type="text" readonly="readonly" value="film">
-        </li>
-        <li>
-          <div class="icon fycon-form-checkbox-active"></div>
-          <input type="text" readonly="readonly" value="form-checkbox-active">
-        </li>
-        <li>
-          <div class="icon fycon-form-checkbox-empty"></div>
-          <input type="text" readonly="readonly" value="form-checkbox-empty">
-        </li>
-        <li>
-          <div class="icon fycon-form-checkbox-partial"></div>
-          <input type="text" readonly="readonly" value="form-checkbox-partial">
-        </li>
-        <li>
-          <div class="icon fycon-form-radio-active"></div>
-          <input type="text" readonly="readonly" value="form-radio-active">
-        </li>
-        <li>
-          <div class="icon fycon-form-radio-empty"></div>
-          <input type="text" readonly="readonly" value="form-radio-empty">
-        </li>
-        <li>
-          <div class="icon fycon-format-bold"></div>
-          <input type="text" readonly="readonly" value="format-bold">
-        </li>
-        <li>
-          <div class="icon fycon-format-italic"></div>
-          <input type="text" readonly="readonly" value="format-italic">
-        </li>
-        <li>
-          <div class="icon fycon-format-link"></div>
-          <input type="text" readonly="readonly" value="format-link">
-        </li>
-        <li>
-          <div class="icon fycon-format-orderedlist"></div>
-          <input type="text" readonly="readonly" value="format-orderedlist">
-        </li>
-        <li>
-          <div class="icon fycon-format-strikethrough"></div>
-          <input type="text" readonly="readonly" value="format-strikethrough">
-        </li>
-        <li>
-          <div class="icon fycon-format-underline"></div>
-          <input type="text" readonly="readonly" value="format-underline">
-        </li>
-        <li>
-          <div class="icon fycon-format-unorderedlist"></div>
-          <input type="text" readonly="readonly" value="format-unorderedlist">
-        </li>
-        <li>
-          <div class="icon fycon-groups"></div>
-          <input type="text" readonly="readonly" value="groups">
-        </li>
-        <li>
-          <div class="icon fycon-groups-add"></div>
-          <input type="text" readonly="readonly" value="groups-add">
-        </li>
-        <li>
-          <div class="icon fycon-hamburger"></div>
-          <input type="text" readonly="readonly" value="hamburger">
-        </li>
-        <li>
-          <div class="icon fycon-home"></div>
-          <input type="text" readonly="readonly" value="home">
-        </li>
-        <li>
-          <div class="icon fycon-icon-chat"></div>
-          <input type="text" readonly="readonly" value="icon-chat">
-        </li>
-        <li>
-          <div class="icon fycon-icon-comments"></div>
-          <input type="text" readonly="readonly" value="icon-comments">
-        </li>
-        <li>
-          <div class="icon fycon-icon-counter"></div>
-          <input type="text" readonly="readonly" value="icon-counter">
-        </li>
-        <li>
-          <div class="icon fycon-icon-feed"></div>
-          <input type="text" readonly="readonly" value="icon-feed">
-        </li>
-        <li>
-          <div class="icon fycon-icon-liveblog"></div>
-          <input type="text" readonly="readonly" value="icon-liveblog">
-        </li>
-        <li>
-          <div class="icon fycon-icon-map"></div>
-          <input type="text" readonly="readonly" value="icon-map">
-        </li>
-        <li>
-          <div class="icon fycon-icon-modq"></div>
-          <input type="text" readonly="readonly" value="icon-modq">
-        </li>
-        <li>
-          <div class="icon fycon-icon-more"></div>
-          <input type="text" readonly="readonly" value="icon-more">
-        </li>
-        <li>
-          <div class="icon fycon-icon-polls"></div>
-          <input type="text" readonly="readonly" value="icon-polls">
-        </li>
-        <li>
-          <div class="icon fycon-icon-reviews"></div>
-          <input type="text" readonly="readonly" value="icon-reviews">
-        </li>
-        <li>
-          <div class="icon fycon-icon-sidenotes"></div>
-          <input type="text" readonly="readonly" value="icon-sidenotes">
-        </li>
-        <li>
-          <div class="icon fycon-icon-storify"></div>
-          <input type="text" readonly="readonly" value="icon-storify">
-        </li>
-        <li>
-          <div class="icon fycon-icon-wall"></div>
-          <input type="text" readonly="readonly" value="icon-wall">
-        </li>
-        <li>
-          <div class="icon fycon-import"></div>
-          <input type="text" readonly="readonly" value="import">
-        </li>
-        <li>
-          <div class="icon fycon-information"></div>
-          <input type="text" readonly="readonly" value="information">
-        </li>
-        <li>
-          <div class="icon fycon-laptop"></div>
-          <input type="text" readonly="readonly" value="laptop">
-        </li>
-        <li>
-          <div class="icon fycon-listening-left"></div>
-          <input type="text" readonly="readonly" value="listening-left">
-        </li>
-        <li>
-          <div class="icon fycon-listening-right"></div>
-          <input type="text" readonly="readonly" value="listening-right">
-        </li>
-        <li>
-          <div class="icon fycon-location"></div>
-          <input type="text" readonly="readonly" value="location">
-        </li>
-        <li>
-          <div class="icon fycon-locked"></div>
-          <input type="text" readonly="readonly" value="locked">
-        </li>
-        <li>
-          <div class="icon fycon-logo-android"></div>
-          <input type="text" readonly="readonly" value="logo-android">
-        </li>
-        <li>
-          <div class="icon fycon-logo-apple"></div>
-          <input type="text" readonly="readonly" value="logo-apple">
-        </li>
-        <li>
-          <div class="icon fycon-logo-chat"></div>
-          <input type="text" readonly="readonly" value="logo-chat">
-        </li>
-        <li>
-          <div class="icon fycon-logo-comments"></div>
-          <input type="text" readonly="readonly" value="logo-comments">
-        </li>
-        <li>
-          <div class="icon fycon-logo-counter"></div>
-          <input type="text" readonly="readonly" value="logo-counter">
-        </li>
-        <li>
-          <div class="icon fycon-logo-developers"></div>
-          <input type="text" readonly="readonly" value="logo-developers">
-        </li>
-        <li>
-          <div class="icon fycon-logo-feed"></div>
-          <input type="text" readonly="readonly" value="logo-feed">
-        </li>
-        <li>
-          <div class="icon fycon-logo-liveblog"></div>
-          <input type="text" readonly="readonly" value="logo-liveblog">
-        </li>
-        <li>
-          <div class="icon fycon-logo-livefyre"></div>
-          <input type="text" readonly="readonly" value="logo-livefyre">
-        </li>
-        <li>
-          <div class="icon fycon-logo-map"></div>
-          <input type="text" readonly="readonly" value="logo-map">
-        </li>
-        <li>
-          <div class="icon fycon-logo-mediawall"></div>
-          <input type="text" readonly="readonly" value="logo-mediawall">
-        </li>
-        <li>
-          <div class="icon fycon-logo-modq"></div>
-          <input type="text" readonly="readonly" value="logo-modq">
-        </li>
-        <li>
-          <div class="icon fycon-logo-polls"></div>
-          <input type="text" readonly="readonly" value="logo-polls">
-        </li>
-        <li>
-          <div class="icon fycon-logo-reviews"></div>
-          <input type="text" readonly="readonly" value="logo-reviews">
-        </li>
-        <li>
-          <div class="icon fycon-logo-sidenotes"></div>
-          <input type="text" readonly="readonly" value="logo-sidenotes">
-        </li>
-        <li>
-          <div class="icon fycon-logo-snap"></div>
-          <input type="text" readonly="readonly" value="logo-snap">
-        </li>
-        <li>
-          <div class="icon fycon-logo-storify"></div>
-          <input type="text" readonly="readonly" value="logo-storify">
-        </li>
-        <li>
-          <div class="icon fycon-logo-streamhub"></div>
-          <input type="text" readonly="readonly" value="logo-streamhub">
-        </li>
-        <li>
-          <div class="icon fycon-logo-windows"></div>
-          <input type="text" readonly="readonly" value="logo-windows">
-        </li>
-        <li>
-          <div class="icon fycon-minimize"></div>
-          <input type="text" readonly="readonly" value="minimize">
-        </li>
-        <li>
-          <div class="icon fycon-minus"></div>
-          <input type="text" readonly="readonly" value="minus">
-        </li>
-        <li>
-          <div class="icon fycon-mobile"></div>
-          <input type="text" readonly="readonly" value="mobile">
-        </li>
-        <li>
-          <div class="icon fycon-modal-arrow-left"></div>
-          <input type="text" readonly="readonly" value="modal-arrow-left">
-        </li>
-        <li>
-          <div class="icon fycon-modal-arrow-right"></div>
-          <input type="text" readonly="readonly" value="modal-arrow-right">
-        </li>
-        <li>
-          <div class="icon fycon-mute-flags"></div>
-          <input type="text" readonly="readonly" value="mute-flags">
-        </li>
-        <li>
-          <div class="icon fycon-nav-close"></div>
-          <input type="text" readonly="readonly" value="nav-close">
-        </li>
-        <li>
-          <div class="icon fycon-nav-expand"></div>
-          <input type="text" readonly="readonly" value="nav-expand">
-        </li>
-        <li>
-          <div class="icon fycon-network"></div>
-          <input type="text" readonly="readonly" value="network">
-        </li>
-        <li>
-          <div class="icon fycon-person"></div>
-          <input type="text" readonly="readonly" value="person">
-        </li>
-        <li>
-          <div class="icon fycon-photograph"></div>
-          <input type="text" readonly="readonly" value="photograph">
-        </li>
-        <li>
-          <div class="icon fycon-plane"></div>
-          <input type="text" readonly="readonly" value="plane">
-        </li>
-        <li>
-          <div class="icon fycon-play"></div>
-          <input type="text" readonly="readonly" value="play">
-        </li>
-        <li>
-          <div class="icon fycon-plus"></div>
-          <input type="text" readonly="readonly" value="plus">
-        </li>
-        <li>
-          <div class="icon fycon-question"></div>
-          <input type="text" readonly="readonly" value="question">
-        </li>
-        <li>
-          <div class="icon fycon-recent"></div>
-          <input type="text" readonly="readonly" value="recent">
-        </li>
-        <li>
-          <div class="icon fycon-redo"></div>
-          <input type="text" readonly="readonly" value="redo">
-        </li>
-        <li>
-          <div class="icon fycon-refresh"></div>
-          <input type="text" readonly="readonly" value="refresh">
-        </li>
-        <li>
-          <div class="icon fycon-search"></div>
-          <input type="text" readonly="readonly" value="search">
-        </li>
-        <li>
-          <div class="icon fycon-settings-admin"></div>
-          <input type="text" readonly="readonly" value="settings-admin">
-        </li>
-        <li>
-          <div class="icon fycon-settings-feedback"></div>
-          <input type="text" readonly="readonly" value="settings-feedback">
-        </li>
-        <li>
-          <div class="icon fycon-settings-gear"></div>
-          <input type="text" readonly="readonly" value="settings-gear">
-        </li>
-        <li>
-          <div class="icon fycon-settings-logout"></div>
-          <input type="text" readonly="readonly" value="settings-logout">
-        </li>
-        <li>
-          <div class="icon fycon-settings-me"></div>
-          <input type="text" readonly="readonly" value="settings-me">
-        </li>
-        <li>
-          <div class="icon fycon-settings-switch"></div>
-          <input type="text" readonly="readonly" value="settings-switch">
-        </li>
-        <li>
-          <div class="icon fycon-source-drupal"></div>
-          <input type="text" readonly="readonly" value="source-drupal">
-        </li>
-        <li>
-          <div class="icon fycon-source-facebook"></div>
-          <input type="text" readonly="readonly" value="source-facebook">
-        </li>
-        <li>
-          <div class="icon fycon-source-flickr"></div>
-          <input type="text" readonly="readonly" value="source-flickr">
-        </li>
-        <li>
-          <div class="icon fycon-source-foursquare"></div>
-          <input type="text" readonly="readonly" value="source-foursquare">
-        </li>
-        <li>
-          <div class="icon fycon-source-google"></div>
-          <input type="text" readonly="readonly" value="source-google">
-        </li>
-        <li>
-          <div class="icon fycon-source-googleplus"></div>
-          <input type="text" readonly="readonly" value="source-googleplus">
-        </li>
-        <li>
-          <div class="icon fycon-source-instagram"></div>
-          <input type="text" readonly="readonly" value="source-instagram">
-        </li>
-        <li>
-          <div class="icon fycon-source-linkedin"></div>
-          <input type="text" readonly="readonly" value="source-linkedin">
-        </li>
-        <li>
-          <div class="icon fycon-source-livefyre"></div>
-          <input type="text" readonly="readonly" value="source-livefyre">
-        </li>
-        <li>
-          <div class="icon fycon-source-pinterest"></div>
-          <input type="text" readonly="readonly" value="source-pinterest">
-        </li>
-        <li>
-          <div class="icon fycon-source-reddit"></div>
-          <input type="text" readonly="readonly" value="source-reddit">
-        </li>
-        <li>
-          <div class="icon fycon-source-rss"></div>
-          <input type="text" readonly="readonly" value="source-rss">
-        </li>
-        <li>
-          <div class="icon fycon-source-soundcloud"></div>
-          <input type="text" readonly="readonly" value="source-soundcloud">
-        </li>
-        <li>
-          <div class="icon fycon-source-storify"></div>
-          <input type="text" readonly="readonly" value="source-storify">
-        </li>
-        <li>
-          <div class="icon fycon-source-tumblr"></div>
-          <input type="text" readonly="readonly" value="source-tumblr">
-        </li>
-        <li>
-          <div class="icon fycon-source-twitter"></div>
-          <input type="text" readonly="readonly" value="source-twitter">
-        </li>
-        <li>
-          <div class="icon fycon-source-twitter2"></div>
-          <input type="text" readonly="readonly" value="source-twitter2">
-        </li>
-        <li>
-          <div class="icon fycon-source-vimeo"></div>
-          <input type="text" readonly="readonly" value="source-vimeo">
-        </li>
-        <li>
-          <div class="icon fycon-source-vine"></div>
-          <input type="text" readonly="readonly" value="source-vine">
-        </li>
-        <li>
-          <div class="icon fycon-source-wordpress"></div>
-          <input type="text" readonly="readonly" value="source-wordpress">
-        </li>
-        <li>
-          <div class="icon fycon-source-youtube1"></div>
-          <input type="text" readonly="readonly" value="source-youtube1">
-        </li>
-        <li>
-          <div class="icon fycon-source-youtube2"></div>
-          <input type="text" readonly="readonly" value="source-youtube2">
-        </li>
-        <li>
-          <div class="icon fycon-spaceship"></div>
-          <input type="text" readonly="readonly" value="spaceship">
-        </li>
-        <li>
-          <div class="icon fycon-tablet"></div>
-          <input type="text" readonly="readonly" value="tablet">
-        </li>
-        <li>
-          <div class="icon fycon-tag"></div>
-          <input type="text" readonly="readonly" value="tag">
-        </li>
-        <li>
-          <div class="icon fycon-tv"></div>
-          <input type="text" readonly="readonly" value="tv">
-        </li>
-        <li>
-          <div class="icon fycon-tv-4k"></div>
-          <input type="text" readonly="readonly" value="tv-4k">
-        </li>
-        <li>
-          <div class="icon fycon-tv-broadcast"></div>
-          <input type="text" readonly="readonly" value="tv-broadcast">
-        </li>
-        <li>
-          <div class="icon fycon-tv-hd"></div>
-          <input type="text" readonly="readonly" value="tv-hd">
-        </li>
-        <li>
-          <div class="icon fycon-tv-sd"></div>
-          <input type="text" readonly="readonly" value="tv-sd">
-        </li>
-        <li>
-          <div class="icon fycon-undo"></div>
-          <input type="text" readonly="readonly" value="undo">
-        </li>
-        <li>
-          <div class="icon fycon-unlocked"></div>
-          <input type="text" readonly="readonly" value="unlocked">
-        </li>
-        <li>
-          <div class="icon fycon-user-context"></div>
-          <input type="text" readonly="readonly" value="user-context">
-        </li>
-        <li>
-          <div class="icon fycon-users"></div>
-          <input type="text" readonly="readonly" value="users">
-        </li>
-        <li>
-          <div class="icon fycon-verified"></div>
-          <input type="text" readonly="readonly" value="verified">
-        </li>
-        <li>
-          <div class="icon fycon-video"></div>
-          <input type="text" readonly="readonly" value="video">
-        </li>
-        <li>
-          <div class="icon fycon-website"></div>
-          <input type="text" readonly="readonly" value="website">
-        </li>
-        <li>
-          <div class="icon fycon-website-add"></div>
-          <input type="text" readonly="readonly" value="website-add">
-        </li>
-        <li>
-          <div class="icon fycon-whitelist"></div>
-          <input type="text" readonly="readonly" value="whitelist">
-        </li>
-        <li>
-          <div class="icon fycon-write"></div>
-          <input type="text" readonly="readonly" value="write">
-        </li>
-        <li>
-          <div class="icon fycon-x"></div>
-          <input type="text" readonly="readonly" value="x">
-        </li>
-      </ul>
+    <div class="row">
+      <h1>
+        <i class="fycon-source-livefyre"></i>cons (Fycons)</h1>
+      <div class="col-12" style="font-size: 2em;">
+        <ul class="glyphs css-mapping">
+          <li>
+            <div class="icon fycon-action-etc"></div>
+            <input type="text" readonly="readonly" value="action-etc">
+          </li>
+          <li>
+            <div class="icon fycon-action-favorite"></div>
+            <input type="text" readonly="readonly" value="action-favorite">
+          </li>
+          <li>
+            <div class="icon fycon-action-favorite-empty"></div>
+            <input type="text" readonly="readonly" value="action-favorite-empty">
+          </li>
+          <li>
+            <div class="icon fycon-action-favorite-half"></div>
+            <input type="text" readonly="readonly" value="action-favorite-half">
+          </li>
+          <li>
+            <div class="icon fycon-action-helpful"></div>
+            <input type="text" readonly="readonly" value="action-helpful">
+          </li>
+          <li>
+            <div class="icon fycon-action-like"></div>
+            <input type="text" readonly="readonly" value="action-like">
+          </li>
+          <li>
+            <div class="icon fycon-action-reply"></div>
+            <input type="text" readonly="readonly" value="action-reply">
+          </li>
+          <li>
+            <div class="icon fycon-action-reply-right"></div>
+            <input type="text" readonly="readonly" value="action-reply-right">
+          </li>
+          <li>
+            <div class="icon fycon-action-retweet"></div>
+            <input type="text" readonly="readonly" value="action-retweet">
+          </li>
+          <li>
+            <div class="icon fycon-action-share"></div>
+            <input type="text" readonly="readonly" value="action-share">
+          </li>
+          <li>
+            <div class="icon fycon-action-unhelpful"></div>
+            <input type="text" readonly="readonly" value="action-unhelpful">
+          </li>
+          <li>
+            <div class="icon fycon-action-view"></div>
+            <input type="text" readonly="readonly" value="action-view">
+          </li>
+          <li>
+            <div class="icon fycon-admin-ban"></div>
+            <input type="text" readonly="readonly" value="admin-ban">
+          </li>
+          <li>
+            <div class="icon fycon-admin-bozo"></div>
+            <input type="text" readonly="readonly" value="admin-bozo">
+          </li>
+          <li>
+            <div class="icon fycon-admin-delete"></div>
+            <input type="text" readonly="readonly" value="admin-delete">
+          </li>
+          <li>
+            <div class="icon fycon-admin-flag"></div>
+            <input type="text" readonly="readonly" value="admin-flag">
+          </li>
+          <li>
+            <div class="icon fycon-alert"></div>
+            <input type="text" readonly="readonly" value="alert">
+          </li>
+          <li>
+            <div class="icon fycon-analytics"></div>
+            <input type="text" readonly="readonly" value="analytics">
+          </li>
+          <li>
+            <div class="icon fycon-apps"></div>
+            <input type="text" readonly="readonly" value="apps">
+          </li>
+          <li>
+            <div class="icon fycon-archive"></div>
+            <input type="text" readonly="readonly" value="archive">
+          </li>
+          <li>
+            <div class="icon fycon-arrow-back"></div>
+            <input type="text" readonly="readonly" value="arrow-back">
+          </li>
+          <li>
+            <div class="icon fycon-arrow-down"></div>
+            <input type="text" readonly="readonly" value="arrow-down">
+          </li>
+          <li>
+            <div class="icon fycon-arrow-down-circle"></div>
+            <input type="text" readonly="readonly" value="arrow-down-circle">
+          </li>
+          <li>
+            <div class="icon fycon-arrow-left"></div>
+            <input type="text" readonly="readonly" value="arrow-left">
+          </li>
+          <li>
+            <div class="icon fycon-arrow-right"></div>
+            <input type="text" readonly="readonly" value="arrow-right">
+          </li>
+          <li>
+            <div class="icon fycon-arrow-up"></div>
+            <input type="text" readonly="readonly" value="arrow-up">
+          </li>
+          <li>
+            <div class="icon fycon-arrow-up-circle"></div>
+            <input type="text" readonly="readonly" value="arrow-up-circle">
+          </li>
+          <li>
+            <div class="icon fycon-article"></div>
+            <input type="text" readonly="readonly" value="article">
+          </li>
+          <li>
+            <div class="icon fycon-audiowave"></div>
+            <input type="text" readonly="readonly" value="audiowave">
+          </li>
+          <li>
+            <div class="icon fycon-bell"></div>
+            <input type="text" readonly="readonly" value="bell">
+          </li>
+          <li>
+            <div class="icon fycon-bolt"></div>
+            <input type="text" readonly="readonly" value="bolt">
+          </li>
+          <li>
+            <div class="icon fycon-calendar"></div>
+            <input type="text" readonly="readonly" value="calendar">
+          </li>
+          <li>
+            <div class="icon fycon-check"></div>
+            <input type="text" readonly="readonly" value="check">
+          </li>
+          <li>
+            <div class="icon fycon-clock"></div>
+            <input type="text" readonly="readonly" value="clock">
+          </li>
+          <li>
+            <div class="icon fycon-collections"></div>
+            <input type="text" readonly="readonly" value="collections">
+          </li>
+          <li>
+            <div class="icon fycon-composer-emoticons"></div>
+            <input type="text" readonly="readonly" value="composer-emoticons">
+          </li>
+          <li>
+            <div class="icon fycon-composer-format1"></div>
+            <input type="text" readonly="readonly" value="composer-format1">
+          </li>
+          <li>
+            <div class="icon fycon-composer-format2"></div>
+            <input type="text" readonly="readonly" value="composer-format2">
+          </li>
+          <li>
+            <div class="icon fycon-composer-mention"></div>
+            <input type="text" readonly="readonly" value="composer-mention">
+          </li>
+          <li>
+            <div class="icon fycon-composer-photo"></div>
+            <input type="text" readonly="readonly" value="composer-photo">
+          </li>
+          <li>
+            <div class="icon fycon-composer-sad"></div>
+            <input type="text" readonly="readonly" value="composer-sad">
+          </li>
+          <li>
+            <div class="icon fycon-connect"></div>
+            <input type="text" readonly="readonly" value="connect">
+          </li>
+          <li>
+            <div class="icon fycon-connection-lost"></div>
+            <input type="text" readonly="readonly" value="connection-lost">
+          </li>
+          <li>
+            <div class="icon fycon-content"></div>
+            <input type="text" readonly="readonly" value="content">
+          </li>
+          <li>
+            <div class="icon fycon-copy-to-clipboard"></div>
+            <input type="text" readonly="readonly" value="copy-to-clipboard">
+          </li>
+          <li>
+            <div class="icon fycon-download"></div>
+            <input type="text" readonly="readonly" value="download">
+          </li>
+          <li>
+            <div class="icon fycon-duplicate"></div>
+            <input type="text" readonly="readonly" value="duplicate">
+          </li>
+          <li>
+            <div class="icon fycon-edit"></div>
+            <input type="text" readonly="readonly" value="edit">
+          </li>
+          <li>
+            <div class="icon fycon-edit-2"></div>
+            <input type="text" readonly="readonly" value="edit-2">
+          </li>
+          <li>
+            <div class="icon fycon-email"></div>
+            <input type="text" readonly="readonly" value="email">
+          </li>
+          <li>
+            <div class="icon fycon-embed"></div>
+            <input type="text" readonly="readonly" value="embed">
+          </li>
+          <li>
+            <div class="icon fycon-expand"></div>
+            <input type="text" readonly="readonly" value="expand">
+          </li>
+          <li>
+            <div class="icon fycon-export"></div>
+            <input type="text" readonly="readonly" value="export">
+          </li>
+          <li>
+            <div class="icon fycon-eye"></div>
+            <input type="text" readonly="readonly" value="eye">
+          </li>
+          <li>
+            <div class="icon fycon-feature"></div>
+            <input type="text" readonly="readonly" value="feature">
+          </li>
+          <li>
+            <div class="icon fycon-film"></div>
+            <input type="text" readonly="readonly" value="film">
+          </li>
+          <li>
+            <div class="icon fycon-form-checkbox-active"></div>
+            <input type="text" readonly="readonly" value="form-checkbox-active">
+          </li>
+          <li>
+            <div class="icon fycon-form-checkbox-empty"></div>
+            <input type="text" readonly="readonly" value="form-checkbox-empty">
+          </li>
+          <li>
+            <div class="icon fycon-form-checkbox-partial"></div>
+            <input type="text" readonly="readonly" value="form-checkbox-partial">
+          </li>
+          <li>
+            <div class="icon fycon-form-radio-active"></div>
+            <input type="text" readonly="readonly" value="form-radio-active">
+          </li>
+          <li>
+            <div class="icon fycon-form-radio-empty"></div>
+            <input type="text" readonly="readonly" value="form-radio-empty">
+          </li>
+          <li>
+            <div class="icon fycon-format-bold"></div>
+            <input type="text" readonly="readonly" value="format-bold">
+          </li>
+          <li>
+            <div class="icon fycon-format-italic"></div>
+            <input type="text" readonly="readonly" value="format-italic">
+          </li>
+          <li>
+            <div class="icon fycon-format-link"></div>
+            <input type="text" readonly="readonly" value="format-link">
+          </li>
+          <li>
+            <div class="icon fycon-format-orderedlist"></div>
+            <input type="text" readonly="readonly" value="format-orderedlist">
+          </li>
+          <li>
+            <div class="icon fycon-format-strikethrough"></div>
+            <input type="text" readonly="readonly" value="format-strikethrough">
+          </li>
+          <li>
+            <div class="icon fycon-format-underline"></div>
+            <input type="text" readonly="readonly" value="format-underline">
+          </li>
+          <li>
+            <div class="icon fycon-format-unorderedlist"></div>
+            <input type="text" readonly="readonly" value="format-unorderedlist">
+          </li>
+          <li>
+            <div class="icon fycon-groups"></div>
+            <input type="text" readonly="readonly" value="groups">
+          </li>
+          <li>
+            <div class="icon fycon-groups-add"></div>
+            <input type="text" readonly="readonly" value="groups-add">
+          </li>
+          <li>
+            <div class="icon fycon-hamburger"></div>
+            <input type="text" readonly="readonly" value="hamburger">
+          </li>
+          <li>
+            <div class="icon fycon-home"></div>
+            <input type="text" readonly="readonly" value="home">
+          </li>
+          <li>
+            <div class="icon fycon-icon-chat"></div>
+            <input type="text" readonly="readonly" value="icon-chat">
+          </li>
+          <li>
+            <div class="icon fycon-icon-comments"></div>
+            <input type="text" readonly="readonly" value="icon-comments">
+          </li>
+          <li>
+            <div class="icon fycon-icon-counter"></div>
+            <input type="text" readonly="readonly" value="icon-counter">
+          </li>
+          <li>
+            <div class="icon fycon-icon-feed"></div>
+            <input type="text" readonly="readonly" value="icon-feed">
+          </li>
+          <li>
+            <div class="icon fycon-icon-liveblog"></div>
+            <input type="text" readonly="readonly" value="icon-liveblog">
+          </li>
+          <li>
+            <div class="icon fycon-icon-map"></div>
+            <input type="text" readonly="readonly" value="icon-map">
+          </li>
+          <li>
+            <div class="icon fycon-icon-modq"></div>
+            <input type="text" readonly="readonly" value="icon-modq">
+          </li>
+          <li>
+            <div class="icon fycon-icon-more"></div>
+            <input type="text" readonly="readonly" value="icon-more">
+          </li>
+          <li>
+            <div class="icon fycon-icon-polls"></div>
+            <input type="text" readonly="readonly" value="icon-polls">
+          </li>
+          <li>
+            <div class="icon fycon-icon-reviews"></div>
+            <input type="text" readonly="readonly" value="icon-reviews">
+          </li>
+          <li>
+            <div class="icon fycon-icon-sidenotes"></div>
+            <input type="text" readonly="readonly" value="icon-sidenotes">
+          </li>
+          <li>
+            <div class="icon fycon-icon-storify"></div>
+            <input type="text" readonly="readonly" value="icon-storify">
+          </li>
+          <li>
+            <div class="icon fycon-icon-wall"></div>
+            <input type="text" readonly="readonly" value="icon-wall">
+          </li>
+          <li>
+            <div class="icon fycon-import"></div>
+            <input type="text" readonly="readonly" value="import">
+          </li>
+          <li>
+            <div class="icon fycon-information"></div>
+            <input type="text" readonly="readonly" value="information">
+          </li>
+          <li>
+            <div class="icon fycon-laptop"></div>
+            <input type="text" readonly="readonly" value="laptop">
+          </li>
+          <li>
+            <div class="icon fycon-listening-left"></div>
+            <input type="text" readonly="readonly" value="listening-left">
+          </li>
+          <li>
+            <div class="icon fycon-listening-right"></div>
+            <input type="text" readonly="readonly" value="listening-right">
+          </li>
+          <li>
+            <div class="icon fycon-location"></div>
+            <input type="text" readonly="readonly" value="location">
+          </li>
+          <li>
+            <div class="icon fycon-locked"></div>
+            <input type="text" readonly="readonly" value="locked">
+          </li>
+          <li>
+            <div class="icon fycon-logo-android"></div>
+            <input type="text" readonly="readonly" value="logo-android">
+          </li>
+          <li>
+            <div class="icon fycon-logo-apple"></div>
+            <input type="text" readonly="readonly" value="logo-apple">
+          </li>
+          <li>
+            <div class="icon fycon-logo-chat"></div>
+            <input type="text" readonly="readonly" value="logo-chat">
+          </li>
+          <li>
+            <div class="icon fycon-logo-comments"></div>
+            <input type="text" readonly="readonly" value="logo-comments">
+          </li>
+          <li>
+            <div class="icon fycon-logo-counter"></div>
+            <input type="text" readonly="readonly" value="logo-counter">
+          </li>
+          <li>
+            <div class="icon fycon-logo-developers"></div>
+            <input type="text" readonly="readonly" value="logo-developers">
+          </li>
+          <li>
+            <div class="icon fycon-logo-feed"></div>
+            <input type="text" readonly="readonly" value="logo-feed">
+          </li>
+          <li>
+            <div class="icon fycon-logo-liveblog"></div>
+            <input type="text" readonly="readonly" value="logo-liveblog">
+          </li>
+          <li>
+            <div class="icon fycon-logo-livefyre"></div>
+            <input type="text" readonly="readonly" value="logo-livefyre">
+          </li>
+          <li>
+            <div class="icon fycon-logo-map"></div>
+            <input type="text" readonly="readonly" value="logo-map">
+          </li>
+          <li>
+            <div class="icon fycon-logo-mediawall"></div>
+            <input type="text" readonly="readonly" value="logo-mediawall">
+          </li>
+          <li>
+            <div class="icon fycon-logo-modq"></div>
+            <input type="text" readonly="readonly" value="logo-modq">
+          </li>
+          <li>
+            <div class="icon fycon-logo-polls"></div>
+            <input type="text" readonly="readonly" value="logo-polls">
+          </li>
+          <li>
+            <div class="icon fycon-logo-reviews"></div>
+            <input type="text" readonly="readonly" value="logo-reviews">
+          </li>
+          <li>
+            <div class="icon fycon-logo-sidenotes"></div>
+            <input type="text" readonly="readonly" value="logo-sidenotes">
+          </li>
+          <li>
+            <div class="icon fycon-logo-snap"></div>
+            <input type="text" readonly="readonly" value="logo-snap">
+          </li>
+          <li>
+            <div class="icon fycon-logo-storify"></div>
+            <input type="text" readonly="readonly" value="logo-storify">
+          </li>
+          <li>
+            <div class="icon fycon-logo-streamhub"></div>
+            <input type="text" readonly="readonly" value="logo-streamhub">
+          </li>
+          <li>
+            <div class="icon fycon-logo-windows"></div>
+            <input type="text" readonly="readonly" value="logo-windows">
+          </li>
+          <li>
+            <div class="icon fycon-minimize"></div>
+            <input type="text" readonly="readonly" value="minimize">
+          </li>
+          <li>
+            <div class="icon fycon-minus"></div>
+            <input type="text" readonly="readonly" value="minus">
+          </li>
+          <li>
+            <div class="icon fycon-mobile"></div>
+            <input type="text" readonly="readonly" value="mobile">
+          </li>
+          <li>
+            <div class="icon fycon-modal-arrow-left"></div>
+            <input type="text" readonly="readonly" value="modal-arrow-left">
+          </li>
+          <li>
+            <div class="icon fycon-modal-arrow-right"></div>
+            <input type="text" readonly="readonly" value="modal-arrow-right">
+          </li>
+          <li>
+            <div class="icon fycon-mute-flags"></div>
+            <input type="text" readonly="readonly" value="mute-flags">
+          </li>
+          <li>
+            <div class="icon fycon-nav-close"></div>
+            <input type="text" readonly="readonly" value="nav-close">
+          </li>
+          <li>
+            <div class="icon fycon-nav-expand"></div>
+            <input type="text" readonly="readonly" value="nav-expand">
+          </li>
+          <li>
+            <div class="icon fycon-network"></div>
+            <input type="text" readonly="readonly" value="network">
+          </li>
+          <li>
+            <div class="icon fycon-person"></div>
+            <input type="text" readonly="readonly" value="person">
+          </li>
+          <li>
+            <div class="icon fycon-photograph"></div>
+            <input type="text" readonly="readonly" value="photograph">
+          </li>
+          <li>
+            <div class="icon fycon-plane"></div>
+            <input type="text" readonly="readonly" value="plane">
+          </li>
+          <li>
+            <div class="icon fycon-play"></div>
+            <input type="text" readonly="readonly" value="play">
+          </li>
+          <li>
+            <div class="icon fycon-plus"></div>
+            <input type="text" readonly="readonly" value="plus">
+          </li>
+          <li>
+            <div class="icon fycon-question"></div>
+            <input type="text" readonly="readonly" value="question">
+          </li>
+          <li>
+            <div class="icon fycon-recent"></div>
+            <input type="text" readonly="readonly" value="recent">
+          </li>
+          <li>
+            <div class="icon fycon-redo"></div>
+            <input type="text" readonly="readonly" value="redo">
+          </li>
+          <li>
+            <div class="icon fycon-refresh"></div>
+            <input type="text" readonly="readonly" value="refresh">
+          </li>
+          <li>
+            <div class="icon fycon-search"></div>
+            <input type="text" readonly="readonly" value="search">
+          </li>
+          <li>
+            <div class="icon fycon-settings-admin"></div>
+            <input type="text" readonly="readonly" value="settings-admin">
+          </li>
+          <li>
+            <div class="icon fycon-settings-feedback"></div>
+            <input type="text" readonly="readonly" value="settings-feedback">
+          </li>
+          <li>
+            <div class="icon fycon-settings-gear"></div>
+            <input type="text" readonly="readonly" value="settings-gear">
+          </li>
+          <li>
+            <div class="icon fycon-settings-logout"></div>
+            <input type="text" readonly="readonly" value="settings-logout">
+          </li>
+          <li>
+            <div class="icon fycon-settings-me"></div>
+            <input type="text" readonly="readonly" value="settings-me">
+          </li>
+          <li>
+            <div class="icon fycon-settings-switch"></div>
+            <input type="text" readonly="readonly" value="settings-switch">
+          </li>
+          <li>
+            <div class="icon fycon-source-drupal"></div>
+            <input type="text" readonly="readonly" value="source-drupal">
+          </li>
+          <li>
+            <div class="icon fycon-source-facebook"></div>
+            <input type="text" readonly="readonly" value="source-facebook">
+          </li>
+          <li>
+            <div class="icon fycon-source-flickr"></div>
+            <input type="text" readonly="readonly" value="source-flickr">
+          </li>
+          <li>
+            <div class="icon fycon-source-foursquare"></div>
+            <input type="text" readonly="readonly" value="source-foursquare">
+          </li>
+          <li>
+            <div class="icon fycon-source-google"></div>
+            <input type="text" readonly="readonly" value="source-google">
+          </li>
+          <li>
+            <div class="icon fycon-source-googleplus"></div>
+            <input type="text" readonly="readonly" value="source-googleplus">
+          </li>
+          <li>
+            <div class="icon fycon-source-instagram"></div>
+            <input type="text" readonly="readonly" value="source-instagram">
+          </li>
+          <li>
+            <div class="icon fycon-source-linkedin"></div>
+            <input type="text" readonly="readonly" value="source-linkedin">
+          </li>
+          <li>
+            <div class="icon fycon-source-livefyre"></div>
+            <input type="text" readonly="readonly" value="source-livefyre">
+          </li>
+          <li>
+            <div class="icon fycon-source-pinterest"></div>
+            <input type="text" readonly="readonly" value="source-pinterest">
+          </li>
+          <li>
+            <div class="icon fycon-source-reddit"></div>
+            <input type="text" readonly="readonly" value="source-reddit">
+          </li>
+          <li>
+            <div class="icon fycon-source-rss"></div>
+            <input type="text" readonly="readonly" value="source-rss">
+          </li>
+          <li>
+            <div class="icon fycon-source-soundcloud"></div>
+            <input type="text" readonly="readonly" value="source-soundcloud">
+          </li>
+          <li>
+            <div class="icon fycon-source-storify"></div>
+            <input type="text" readonly="readonly" value="source-storify">
+          </li>
+          <li>
+            <div class="icon fycon-source-tumblr"></div>
+            <input type="text" readonly="readonly" value="source-tumblr">
+          </li>
+          <li>
+            <div class="icon fycon-source-twitter"></div>
+            <input type="text" readonly="readonly" value="source-twitter">
+          </li>
+          <li>
+            <div class="icon fycon-source-twitter2"></div>
+            <input type="text" readonly="readonly" value="source-twitter2">
+          </li>
+          <li>
+            <div class="icon fycon-source-vimeo"></div>
+            <input type="text" readonly="readonly" value="source-vimeo">
+          </li>
+          <li>
+            <div class="icon fycon-source-vine"></div>
+            <input type="text" readonly="readonly" value="source-vine">
+          </li>
+          <li>
+            <div class="icon fycon-source-wordpress"></div>
+            <input type="text" readonly="readonly" value="source-wordpress">
+          </li>
+          <li>
+            <div class="icon fycon-source-youtube1"></div>
+            <input type="text" readonly="readonly" value="source-youtube1">
+          </li>
+          <li>
+            <div class="icon fycon-source-youtube2"></div>
+            <input type="text" readonly="readonly" value="source-youtube2">
+          </li>
+          <li>
+            <div class="icon fycon-spaceship"></div>
+            <input type="text" readonly="readonly" value="spaceship">
+          </li>
+          <li>
+            <div class="icon fycon-tablet"></div>
+            <input type="text" readonly="readonly" value="tablet">
+          </li>
+          <li>
+            <div class="icon fycon-tag"></div>
+            <input type="text" readonly="readonly" value="tag">
+          </li>
+          <li>
+            <div class="icon fycon-tv"></div>
+            <input type="text" readonly="readonly" value="tv">
+          </li>
+          <li>
+            <div class="icon fycon-tv-4k"></div>
+            <input type="text" readonly="readonly" value="tv-4k">
+          </li>
+          <li>
+            <div class="icon fycon-tv-broadcast"></div>
+            <input type="text" readonly="readonly" value="tv-broadcast">
+          </li>
+          <li>
+            <div class="icon fycon-tv-hd"></div>
+            <input type="text" readonly="readonly" value="tv-hd">
+          </li>
+          <li>
+            <div class="icon fycon-tv-sd"></div>
+            <input type="text" readonly="readonly" value="tv-sd">
+          </li>
+          <li>
+            <div class="icon fycon-undo"></div>
+            <input type="text" readonly="readonly" value="undo">
+          </li>
+          <li>
+            <div class="icon fycon-unlocked"></div>
+            <input type="text" readonly="readonly" value="unlocked">
+          </li>
+          <li>
+            <div class="icon fycon-user-context"></div>
+            <input type="text" readonly="readonly" value="user-context">
+          </li>
+          <li>
+            <div class="icon fycon-users"></div>
+            <input type="text" readonly="readonly" value="users">
+          </li>
+          <li>
+            <div class="icon fycon-verified"></div>
+            <input type="text" readonly="readonly" value="verified">
+          </li>
+          <li>
+            <div class="icon fycon-video"></div>
+            <input type="text" readonly="readonly" value="video">
+          </li>
+          <li>
+            <div class="icon fycon-website"></div>
+            <input type="text" readonly="readonly" value="website">
+          </li>
+          <li>
+            <div class="icon fycon-website-add"></div>
+            <input type="text" readonly="readonly" value="website-add">
+          </li>
+          <li>
+            <div class="icon fycon-whitelist"></div>
+            <input type="text" readonly="readonly" value="whitelist">
+          </li>
+          <li>
+            <div class="icon fycon-write"></div>
+            <input type="text" readonly="readonly" value="write">
+          </li>
+          <li>
+            <div class="icon fycon-x"></div>
+            <input type="text" readonly="readonly" value="x">
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
 
-  <!--
+    <!--
   <div class="row">
     <div class="col-12">
       <h1>Coming Soon...</h1>
@@ -1305,16 +1509,18 @@
   </div>
   -->
 
-</div> <!-- /container -->
+  </div>
+  <!-- /container -->
 
-<!-- Scripts -->
-<script src="../../lib/cajon/cajon.js"></script>
-<script src="../../requirejs.conf.js"></script>
-<script>
-  require.config({
-    baseUrl: '../../'
-  });
-  require(['livefyre-bootstrap']);
-</script>
+  <!-- Scripts -->
+  <script src="../../lib/cajon/cajon.js"></script>
+  <script src="../../requirejs.conf.js"></script>
+  <script>
+    require.config({
+      baseUrl: '../../'
+    });
+    require(['livefyre-bootstrap']);
+  </script>
 </body>
+
 </html>
