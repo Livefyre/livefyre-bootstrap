@@ -1,13 +1,13 @@
 {
   "name": "livefyre-bootstrap",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "main": [
     "./src/main.js"
   ],
   "dependencies": {
     "bootstrap": "3.3.4",
     "sinon-chai": "~2.4.0",
-    "sinonjs": "~1.7.3",
+    "sinonjs": "~1.17.1",
     "view": "git://github.com/Livefyre/view.git#~1.0",
     "event-emitter": "git://github.com/Livefyre/event-emitter.git"
   },
